@@ -1,0 +1,176 @@
+[
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "19092025 22:41:39",
+        "InStoreDuration": 2.77
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:41:40",
+        "InStoreDuration": 0.24
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "19092025 22:41:41",
+        "InStoreDuration": 5.96
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:41:43",
+        "InStoreDuration": 64.03
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:41:49",
+        "InStoreDuration": 1.04
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:41:51",
+        "InStoreDuration": 1.25
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:41:53",
+        "InStoreDuration": 7.26
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "19092025 22:42:02",
+        "InStoreDuration": 0.5
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:03",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:04",
+        "InStoreDuration": 0.14
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:04",
+        "InStoreDuration": 0.15
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:42:05",
+        "InStoreDuration": 2.69
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:42:08",
+        "InStoreDuration": 0.61
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:10",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:10",
+        "InStoreDuration": 0.17
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:12",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:13",
+        "InStoreDuration": 0.47
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:15",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:16",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "19092025 22:42:16",
+        "InStoreDuration": 0.85
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:19",
+        "InStoreDuration": 0.5
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:21",
+        "InStoreDuration": 0.68
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:23",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:25",
+        "InStoreDuration": 0.16
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:28",
+        "InStoreDuration": 0.67
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:29",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:31",
+        "InStoreDuration": 0.16
+    },
+    {
+        "Age": null,
+        "Gender": null,
+        "DateTime": "19092025 22:42:33",
+        "InStoreDuration": 0
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "19092025 22:42:41",
+        "InStoreDuration": 5.8
+    }
+]

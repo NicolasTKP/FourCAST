@@ -1,0 +1,26 @@
+[
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "20092025 13:35:09",
+        "InStoreDuration": 3.98
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "20092025 13:35:11",
+        "InStoreDuration": 1.61
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "20092025 13:35:14",
+        "InStoreDuration": 3.23
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "20092025 13:35:14",
+        "InStoreDuration": 2.92
+    }
+]
