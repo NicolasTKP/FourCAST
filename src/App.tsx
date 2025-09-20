@@ -10,8 +10,8 @@ function App() {
   const [fileCount, setFileCount] = useState<number>(0);
 
   // Temporary for testing only
-  const region = process.env.REACT_APP_AWS_REGION || "ap-southeast-1";
-  const accessKeyId = process.env.REACT_APP_AWS_ACCESS_KEY_ID || """";
+  const region = process.env.REACT_APP_AWS_REGION || "";
+  const accessKeyId = process.env.REACT_APP_AWS_ACCESS_KEY_ID || "";
   const secretAccessKey = process.env.REACT_APP_AWS_SECRET_ACCESS_KEY || "";
   const bucketName = "onlstores";
   
