@@ -1,75 +1,107 @@
 [
     {
-        "Toys": 259.36,
-        "Electronics": 5.37,
-        "Home": 257.98
+        "VisitID":"V00002",
+        "CustomerID":"C0001",
+        "Date":"2024-11-04 13:56:00",
+        "ZonesVisited":"['Z001']",
+        "Durations":"[28.66]"
     },
     {
-        "None": 17.84,
-        "Electronics": 247.04
+        "VisitID":"V01421",
+        "CustomerID":"C0144",
+        "Date":"2024-11-04 11:36:00",
+        "ZonesVisited":"['Z004']",
+        "Durations":"[8.17]"
     },
     {
-        "Toys": 100.8,
-        "Sports": 100.76
+        "VisitID":"V01544",
+        "CustomerID":"C0157",
+        "Date":"2024-11-04 18:24:00",
+        "ZonesVisited":"['Z008', 'Z004', 'Z009']",
+        "Durations":"[19.28, 20.68, 29.22]"
     },
     {
-        "Groceries": 281.6,
-        "Electronics": 268.94
+        "VisitID":"V02118",
+        "CustomerID":"C0212",
+        "Date":"2024-11-04 09:06:00",
+        "ZonesVisited":"['Z003', 'Z004', 'Z014', 'Z002']",
+        "Durations":"[24.44, 21.43, 17.09, 43.47]"
     },
     {
-        "Sports": 214.45,
-        "Groceries": 85.12,
-        "None": 261.71
+        "VisitID":"V02962",
+        "CustomerID":"C0303",
+        "Date":"2024-11-04 18:19:00",
+        "ZonesVisited":"['Z013', 'Z004']",
+        "Durations":"[34.42, 37.19]"
     },
     {
-        "None": 76.61,
-        "Home": 244.78,
-        "Clothing": 163.33
+        "VisitID":"V04157",
+        "CustomerID":"C0421",
+        "Date":"2024-11-04 13:28:00",
+        "ZonesVisited":"['Z007', 'Z005', 'Z012', 'Z014']",
+        "Durations":"[39.4, 37.05, 27.24, 17.58]"
     },
     {
-        "Groceries": 246.44,
-        "Sports": 42.16,
-        "Electronics": 256.77,
-        "Home": 298.69
+        "VisitID":"V04504",
+        "CustomerID":"C0457",
+        "Date":"2024-11-04 15:11:00",
+        "ZonesVisited":"['Z004', 'Z015', 'Z014']",
+        "Durations":"[38.33, 19.48, 5.15]"
     },
     {
-        "Sports": 45.81,
-        "Home": 290.02
+        "VisitID":"V04887",
+        "CustomerID":"C0497",
+        "Date":"2024-11-04 10:31:00",
+        "ZonesVisited":"['Z001']",
+        "Durations":"[19.11]"
     },
     {
-        "Groceries": 295.33,
-        "Clothing": 170.58
+        "VisitID":"V04964",
+        "CustomerID":"C0503",
+        "Date":"2024-11-04 17:47:00",
+        "ZonesVisited":"['Z015', 'Z002']",
+        "Durations":"[35.49, 31.06]"
     },
     {
-        "Sports": 232.72,
-        "Electronics": 275.78
+        "VisitID":"V06779",
+        "CustomerID":"C0684",
+        "Date":"2024-11-04 19:57:00",
+        "ZonesVisited":"['Z001', 'Z006', 'Z011']",
+        "Durations":"[23.53, 23.18, 2.71]"
     },
     {
-        "None": 224.12
+        "VisitID":"V07230",
+        "CustomerID":"C0727",
+        "Date":"2024-11-04 13:18:00",
+        "ZonesVisited":"['Z004', 'Z007', 'Z010']",
+        "Durations":"[34.85, 17.61, 11.72]"
     },
     {
-        "Groceries": 5.48,
-        "Toys": 180.29,
-        "Home": 287.84
+        "VisitID":"V07434",
+        "CustomerID":"C0749",
+        "Date":"2024-11-04 16:28:00",
+        "ZonesVisited":"['Z003', 'Z009', 'Z014', 'Z004']",
+        "Durations":"[27.15, 32.48, 34.46, 41.05]"
     },
     {
-        "Sports": 137.66
+        "VisitID":"V07736",
+        "CustomerID":"C0777",
+        "Date":"2024-11-04 12:53:00",
+        "ZonesVisited":"['Z010', 'Z004', 'Z009']",
+        "Durations":"[16.0, 26.78, 2.5]"
     },
     {
-        "Groceries": 21.15,
-        "None": 239.62,
-        "Clothing": 225.69,
-        "Toys": 266.69
+        "VisitID":"V08379",
+        "CustomerID":"C0842",
+        "Date":"2024-11-04 21:06:00",
+        "ZonesVisited":"['Z003', 'Z006', 'Z011']",
+        "Durations":"[11.85, 42.13, 10.65]"
     },
     {
-        "Sports": 263.66
-    },
-    {
-        "Groceries": 211.76
-    },
-    {
-        "Groceries": 265.81,
-        "Sports": 16.63,
-        "None": 186.6
+        "VisitID":"V08572",
+        "CustomerID":"C0861",
+        "Date":"2024-11-04 12:49:00",
+        "ZonesVisited":"['Z014']",
+        "Durations":"[41.65]"
     }
 ]

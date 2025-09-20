@@ -1,89 +1,114 @@
 [
     {
-        "Sports": 251.0,
-        "Electronics": 52.64,
-        "Clothing": 296.71,
-        "Toys": 227.15
+        "VisitID":"V00273",
+        "CustomerID":"C0032",
+        "Date":"2024-07-11 14:03:00",
+        "ZonesVisited":"['Z010', 'Z012', 'Z004']",
+        "Durations":"[13.91, 21.7, 37.32]"
     },
     {
-        "Toys": 163.08,
-        "Clothing": 220.72
+        "VisitID":"V00612",
+        "CustomerID":"C0067",
+        "Date":"2024-07-11 16:00:00",
+        "ZonesVisited":"['Z008', 'Z006', 'Z004']",
+        "Durations":"[6.22, 33.66, 10.95]"
     },
     {
-        "Electronics": 151.39,
-        "None": 139.22
+        "VisitID":"V01552",
+        "CustomerID":"C0158",
+        "Date":"2024-07-11 16:15:00",
+        "ZonesVisited":"['Z013']",
+        "Durations":"[8.52]"
     },
     {
-        "Groceries": 205.62
+        "VisitID":"V01576",
+        "CustomerID":"C0161",
+        "Date":"2024-07-11 20:24:00",
+        "ZonesVisited":"['Z001', 'Z007', 'Z013', 'Z008', 'Z004']",
+        "Durations":"[32.02, 44.76, 19.14, 10.62, 34.08]"
     },
     {
-        "Groceries": 275.3,
-        "Electronics": 218.77,
-        "Clothing": 265.91
+        "VisitID":"V02081",
+        "CustomerID":"C0208",
+        "Date":"2024-07-11 17:37:00",
+        "ZonesVisited":"['Z011', 'Z010', 'Z014']",
+        "Durations":"[7.08, 29.37, 19.0]"
     },
     {
-        "Electronics": 69.2,
-        "None": 194.09,
-        "Groceries": 204.49
+        "VisitID":"V03908",
+        "CustomerID":"C0396",
+        "Date":"2024-07-11 11:46:00",
+        "ZonesVisited":"['Z009', 'Z013']",
+        "Durations":"[4.0, 33.74]"
     },
     {
-        "Electronics": 56.63,
-        "Clothing": 275.68,
-        "Home": 182.39,
-        "Groceries": 35.62
+        "VisitID":"V04326",
+        "CustomerID":"C0438",
+        "Date":"2024-07-11 11:01:00",
+        "ZonesVisited":"['Z011', 'Z002']",
+        "Durations":"[35.5, 28.35]"
     },
     {
-        "Clothing": 7.31,
-        "Toys": 144.2
+        "VisitID":"V05037",
+        "CustomerID":"C0512",
+        "Date":"2024-07-11 19:59:00",
+        "ZonesVisited":"['Z013', 'Z007', 'Z014']",
+        "Durations":"[36.88, 22.06, 41.21]"
     },
     {
-        "Clothing": 10.04
+        "VisitID":"V05253",
+        "CustomerID":"C0533",
+        "Date":"2024-07-11 19:41:00",
+        "ZonesVisited":"['Z010', 'Z015']",
+        "Durations":"[8.95, 13.2]"
     },
     {
-        "None": 37.58,
-        "Groceries": 260.63,
-        "Toys": 284.84
+        "VisitID":"V05762",
+        "CustomerID":"C0587",
+        "Date":"2024-07-11 21:25:00",
+        "ZonesVisited":"['Z002', 'Z003']",
+        "Durations":"[7.3, 28.65]"
     },
     {
-        "Toys": 221.22,
-        "None": 15.37,
-        "Clothing": 298.09
+        "VisitID":"V07260",
+        "CustomerID":"C0730",
+        "Date":"2024-07-11 17:07:00",
+        "ZonesVisited":"['Z004', 'Z009', 'Z012', 'Z002', 'Z007']",
+        "Durations":"[25.45, 44.33, 35.71, 18.73, 15.83]"
     },
     {
-        "Home": 113.05,
-        "Groceries": 155.35,
-        "Toys": 131.36
+        "VisitID":"V08063",
+        "CustomerID":"C0811",
+        "Date":"2024-07-11 13:40:00",
+        "ZonesVisited":"['Z005', 'Z001', 'Z012', 'Z013', 'Z009']",
+        "Durations":"[11.24, 38.7, 37.97, 18.63, 37.73]"
     },
     {
-        "Toys": 223.27,
-        "Home": 249.04,
-        "Electronics": 77.22,
-        "Clothing": 163.8
+        "VisitID":"V09049",
+        "CustomerID":"C0906",
+        "Date":"2024-07-11 11:39:00",
+        "ZonesVisited":"['Z006']",
+        "Durations":"[4.44]"
     },
     {
-        "Groceries": 76.79,
-        "Clothing": 53.51,
-        "Electronics": 247.41,
-        "Sports": 138.31
+        "VisitID":"V09166",
+        "CustomerID":"C0919",
+        "Date":"2024-07-11 11:11:00",
+        "ZonesVisited":"['Z009', 'Z011']",
+        "Durations":"[18.36, 25.23]"
     },
     {
-        "Groceries": 259.62,
-        "Sports": 255.8,
-        "Electronics": 21.83,
-        "None": 248.22
+        "VisitID":"V09583",
+        "CustomerID":"C0962",
+        "Date":"2024-07-11 14:14:00",
+        "ZonesVisited":"['Z013', 'Z014']",
+        "Durations":"[20.99, 26.81]"
     },
     {
-        "Toys": 133.48,
-        "Groceries": 292.42
-    },
-    {
-        "Sports": 52.4,
-        "Home": 275.34
-    },
-    {
-        "Sports": 121.07
-    },
-    {
-        "Sports": 164.31
+        "VisitID":"V09612",
+        "CustomerID":"C0966",
+        "Date":"2024-07-11 11:23:00",
+        "ZonesVisited":"['Z004', 'Z008']",
+        "Durations":"[24.38, 18.59]"
     }
 ]

@@ -133,7 +133,10 @@ extractor = FeatureExtractor(
 )
 
 ZONE_A = (0, 0, 200, 959)  # x1,y1,x2,y2
-ZONE_B = (1079, 0, 1279, 959)  
+ZONE_B = (1079, 0, 1279, 959) 
+ZONE_C = (201, 0, 400, 959) 
+ZONE_D = (401, 0, 600, 959) 
+ZONE_E = (879, 0, 1078, 959) 
 
 person_embeddings = {}  # Format: {track_id: (embedding, timestamp, cam_id)}
 embedding_lock = threading.Lock() #To ensure only one thread accesses the embeddings at a time
@@ -144,7 +147,7 @@ person_last_update_time = {} # Format: {track_id: {zone: timestamp_of_last_updat
 raw_detections = {}  # Format: {track_id: (x1, y1, x2, y2)}
 
 async def process_camera(websocket, cam_id, camera_index):
-    global person_behaviour, person_last_update_time, ZONE_A, ZONE_B, frame_size
+    global person_behaviour, person_last_update_time, ZONE_A, ZONE_B,ZONE_C, ZONE_D, ZONE_E, frame_size
     tracker = DeepSort(max_age=1, embedder="torchreid", embedder_gpu=True) # Set to False for CPU
     cap = cv2.VideoCapture(camera_index) 
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, frame_size[0]) #Set the reslution of the camera
@@ -171,7 +174,19 @@ async def process_camera(websocket, cam_id, camera_index):
         cv2.rectangle(frame_with_yolo, ZONE_B[:2], ZONE_B[2:], (0, 0, 255), 2)
         cv2.putText(frame_with_yolo, "Zone B", (ZONE_B[0], ZONE_B[1] - 10),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
-        
+
+        cv2.rectangle(frame_with_yolo, ZONE_C[:2], ZONE_C[2:], (255, 0, 0), 2)
+        cv2.putText(frame_with_yolo, "Zone C", (ZONE_C[0], ZONE_C[1] - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
+
+        cv2.rectangle(frame_with_yolo, ZONE_D[:2], ZONE_D[2:], (0, 255, 255), 2)
+        cv2.putText(frame_with_yolo, "Zone D", (ZONE_D[0], ZONE_D[1] - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 255), 2)
+
+        cv2.rectangle(frame_with_yolo, ZONE_E[:2], ZONE_E[2:], (255, 0, 255), 2)
+        cv2.putText(frame_with_yolo, "Zone E", (ZONE_E[0], ZONE_E[1] - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 255), 2)
+
         if len(results) == 0 or len(results[0].boxes) == 0:
             # Encode frame and send over WebSocket even if no detections
             _, buffer = cv2.imencode('.jpg', frame_with_yolo)
@@ -209,6 +224,12 @@ async def process_camera(websocket, cam_id, camera_index):
                     current_zone = 'A'
                 elif ZONE_B[0] <= center_x <= ZONE_B[2] and ZONE_B[1] <= center_y <= ZONE_B[3]:
                     current_zone = 'B'
+                elif ZONE_C[0] <= center_x <= ZONE_C[2] and ZONE_C[1] <= center_y <= ZONE_C[3]:
+                    current_zone = 'C'
+                elif ZONE_D[0] <= center_x <= ZONE_D[2] and ZONE_D[1] <= center_y <= ZONE_D[3]:
+                    current_zone = 'D'
+                elif ZONE_E[0] <= center_x <= ZONE_E[2] and ZONE_E[1] <= center_y <= ZONE_E[3]:
+                    current_zone = 'E'
                 else:
                     current_zone = 'none'
 

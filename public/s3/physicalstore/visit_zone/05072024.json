@@ -1,74 +1,100 @@
 [
     {
-        "Groceries": 55.28,
-        "Clothing": 230.32
+        "VisitID":"V00186",
+        "CustomerID":"C0021",
+        "Date":"2024-07-05 13:58:00",
+        "ZonesVisited":"['Z011', 'Z006', 'Z009', 'Z004']",
+        "Durations":"[39.14, 8.08, 30.57, 22.24]"
     },
     {
-        "None": 188.8
+        "VisitID":"V00704",
+        "CustomerID":"C0075",
+        "Date":"2024-07-05 14:03:00",
+        "ZonesVisited":"['Z015', 'Z005', 'Z003', 'Z002']",
+        "Durations":"[14.02, 43.26, 43.6, 27.34]"
     },
     {
-        "Home": 159.06,
-        "Electronics": 256.19,
-        "Toys": 155.29,
-        "Groceries": 198.89
+        "VisitID":"V01452",
+        "CustomerID":"C0147",
+        "Date":"2024-07-05 09:37:00",
+        "ZonesVisited":"['Z009', 'Z012']",
+        "Durations":"[16.86, 15.17]"
     },
     {
-        "Toys": 167.25,
-        "None": 268.16,
-        "Home": 172.16,
-        "Sports": 75.77
+        "VisitID":"V02103",
+        "CustomerID":"C0211",
+        "Date":"2024-07-05 19:13:00",
+        "ZonesVisited":"['Z012', 'Z008', 'Z004', 'Z013', 'Z010']",
+        "Durations":"[19.9, 40.05, 8.95, 5.38, 23.88]"
     },
     {
-        "Clothing": 83.93,
-        "Groceries": 21.44
+        "VisitID":"V02404",
+        "CustomerID":"C0241",
+        "Date":"2024-07-05 19:25:00",
+        "ZonesVisited":"['Z010', 'Z013', 'Z001', 'Z012', 'Z014']",
+        "Durations":"[24.58, 6.04, 20.15, 21.8, 39.9]"
     },
     {
-        "Toys": 288.16,
-        "Clothing": 47.43
+        "VisitID":"V02610",
+        "CustomerID":"C0264",
+        "Date":"2024-07-05 19:23:00",
+        "ZonesVisited":"['Z010', 'Z005']",
+        "Durations":"[41.84, 10.45]"
     },
     {
-        "Electronics": 68.02,
-        "Clothing": 33.55,
-        "Home": 66.97,
-        "Groceries": 250.45
+        "VisitID":"V03396",
+        "CustomerID":"C0345",
+        "Date":"2024-07-05 15:09:00",
+        "ZonesVisited":"['Z014', 'Z008']",
+        "Durations":"[26.26, 16.91]"
     },
     {
-        "Groceries": 272.92,
-        "Home": 25.91,
-        "None": 221.03,
-        "Toys": 40.24
+        "VisitID":"V03862",
+        "CustomerID":"C0391",
+        "Date":"2024-07-05 12:32:00",
+        "ZonesVisited":"['Z010']",
+        "Durations":"[23.84]"
     },
     {
-        "Electronics": 264.97,
-        "Clothing": 7.75
+        "VisitID":"V05224",
+        "CustomerID":"C0530",
+        "Date":"2024-07-05 18:53:00",
+        "ZonesVisited":"['Z010', 'Z013', 'Z001', 'Z007']",
+        "Durations":"[36.84, 6.99, 34.73, 15.85]"
     },
     {
-        "Toys": 206.23,
-        "Groceries": 59.71,
-        "Clothing": 109.05,
-        "Home": 200.16
+        "VisitID":"V05718",
+        "CustomerID":"C0582",
+        "Date":"2024-07-05 11:35:00",
+        "ZonesVisited":"['Z007', 'Z001', 'Z015', 'Z003', 'Z008']",
+        "Durations":"[5.99, 22.15, 35.87, 44.42, 25.12]"
     },
     {
-        "Electronics": 267.28,
-        "Sports": 139.76,
-        "Clothing": 171.86
+        "VisitID":"V05734",
+        "CustomerID":"C0585",
+        "Date":"2024-07-05 21:38:00",
+        "ZonesVisited":"['Z004']",
+        "Durations":"[13.5]"
     },
     {
-        "Electronics": 174.05,
-        "Clothing": 287.1,
-        "None": 114.83
+        "VisitID":"V08390",
+        "CustomerID":"C0843",
+        "Date":"2024-07-05 12:50:00",
+        "ZonesVisited":"['Z012', 'Z007', 'Z010']",
+        "Durations":"[10.76, 43.6, 17.23]"
     },
     {
-        "Electronics": 181.06
+        "VisitID":"V08445",
+        "CustomerID":"C0849",
+        "Date":"2024-07-05 17:47:00",
+        "ZonesVisited":"['Z014', 'Z008', 'Z015']",
+        "Durations":"[39.61, 40.37, 32.44]"
     },
     {
-        "Clothing": 140.63,
-        "Groceries": 230.15,
-        "Home": 201.62
-    },
-    {
-        "Clothing": 89.75,
-        "Sports": 87.13,
-        "Toys": 211.9
+        "VisitID":"V09808",
+        "CustomerID":"C0985",
+        "Date":"2024-07-05 12:57:00",
+        "ZonesVisited":"['Z005', 'Z014', 'Z002', 'Z001', 'Z010']",
+        "Durations":"[41.69, 37.84, 10.31, 2.27, 9.71]"
     }
 ]

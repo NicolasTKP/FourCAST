@@ -1,69 +1,100 @@
 [
     {
-        "Electronics": 185.41,
-        "Clothing": 147.36,
-        "Groceries": 22.42
+        "VisitID":"V00610",
+        "CustomerID":"C0066",
+        "Date":"2024-11-11 17:26:00",
+        "ZonesVisited":"['Z001', 'Z007', 'Z002', 'Z015']",
+        "Durations":"[9.38, 28.08, 22.09, 19.09]"
     },
     {
-        "Home": 121.15
+        "VisitID":"V01191",
+        "CustomerID":"C0124",
+        "Date":"2024-11-11 13:14:00",
+        "ZonesVisited":"['Z003', 'Z014', 'Z004', 'Z011', 'Z001']",
+        "Durations":"[29.95, 27.02, 9.6, 6.07, 18.85]"
     },
     {
-        "Home": 227.91,
-        "Sports": 235.17
+        "VisitID":"V01797",
+        "CustomerID":"C0182",
+        "Date":"2024-11-11 20:42:00",
+        "ZonesVisited":"['Z002', 'Z011', 'Z008']",
+        "Durations":"[26.65, 36.52, 7.8]"
     },
     {
-        "Electronics": 292.12,
-        "Home": 138.43,
-        "None": 225.13,
-        "Groceries": 295.28
+        "VisitID":"V01824",
+        "CustomerID":"C0185",
+        "Date":"2024-11-11 11:33:00",
+        "ZonesVisited":"['Z012', 'Z005', 'Z006', 'Z010', 'Z003']",
+        "Durations":"[44.26, 17.71, 13.2, 24.24, 23.88]"
     },
     {
-        "Groceries": 252.22,
-        "None": 86.05
+        "VisitID":"V01866",
+        "CustomerID":"C0188",
+        "Date":"2024-11-11 11:29:00",
+        "ZonesVisited":"['Z009', 'Z003']",
+        "Durations":"[34.01, 23.68]"
     },
     {
-        "Sports": 159.91,
-        "Clothing": 229.12,
-        "Electronics": 231.83
+        "VisitID":"V02060",
+        "CustomerID":"C0207",
+        "Date":"2024-11-11 21:54:00",
+        "ZonesVisited":"['Z013', 'Z008', 'Z010']",
+        "Durations":"[8.92, 22.45, 8.63]"
     },
     {
-        "Clothing": 29.83,
-        "Toys": 269.73,
-        "None": 261.19
+        "VisitID":"V02599",
+        "CustomerID":"C0263",
+        "Date":"2024-11-11 21:15:00",
+        "ZonesVisited":"['Z006']",
+        "Durations":"[30.06]"
     },
     {
-        "Home": 236.34,
-        "Clothing": 89.32,
-        "Groceries": 235.53,
-        "Sports": 279.3
+        "VisitID":"V05182",
+        "CustomerID":"C0526",
+        "Date":"2024-11-11 09:21:00",
+        "ZonesVisited":"['Z015', 'Z003', 'Z009']",
+        "Durations":"[42.26, 26.69, 31.2]"
     },
     {
-        "None": 173.55,
-        "Toys": 173.35,
-        "Home": 299.28,
-        "Sports": 186.03
+        "VisitID":"V05280",
+        "CustomerID":"C0535",
+        "Date":"2024-11-11 21:46:00",
+        "ZonesVisited":"['Z001', 'Z012', 'Z005']",
+        "Durations":"[33.02, 27.97, 30.61]"
     },
     {
-        "Sports": 98.07
+        "VisitID":"V05902",
+        "CustomerID":"C0601",
+        "Date":"2024-11-11 11:38:00",
+        "ZonesVisited":"['Z007', 'Z005', 'Z010']",
+        "Durations":"[25.97, 12.17, 9.82]"
     },
     {
-        "Toys": 183.68,
-        "None": 76.59
+        "VisitID":"V06806",
+        "CustomerID":"C0687",
+        "Date":"2024-11-11 14:57:00",
+        "ZonesVisited":"['Z009', 'Z013', 'Z002', 'Z015']",
+        "Durations":"[3.87, 9.76, 32.19, 13.92]"
     },
     {
-        "Sports": 221.64,
-        "Electronics": 252.19
+        "VisitID":"V08191",
+        "CustomerID":"C0823",
+        "Date":"2024-11-11 09:27:00",
+        "ZonesVisited":"['Z008', 'Z009', 'Z002', 'Z006', 'Z005']",
+        "Durations":"[17.68, 31.1, 44.93, 7.09, 12.62]"
     },
     {
-        "Electronics": 161.33,
-        "Clothing": 291.36,
-        "Sports": 55.69,
-        "Groceries": 215.64
+        "VisitID":"V09146",
+        "CustomerID":"C0917",
+        "Date":"2024-11-11 15:16:00",
+        "ZonesVisited":"['Z004', 'Z014', 'Z008', 'Z007']",
+        "Durations":"[26.83, 3.86, 12.0, 8.95]"
     },
     {
-        "Toys": 247.62,
-        "Groceries": 238.07,
-        "None": 224.74,
-        "Sports": 173.91
+        "VisitID":"V09458",
+        "CustomerID":"C0949",
+        "Date":"2024-11-11 15:08:00",
+        "ZonesVisited":"['Z001', 'Z008', 'Z009', 'Z004']",
+        "Durations":"[14.67, 23.26, 38.92, 3.03]"
     }
 ]

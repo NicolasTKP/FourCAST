@@ -92,7 +92,7 @@
 
 .bar-chart-bar:hover {
   background-color: #2563eb;
-  transform: scale(1.05);
+  transform: translateY(-5px) scale(1.02);
 }
 
 .bar-chart-x-label {

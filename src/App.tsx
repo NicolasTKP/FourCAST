@@ -1,8 +1,16 @@
 import HumanTrackingDisplay from "./components/HumanTrackingDisplay";
-import BarChart from "./components/BarChart";
 import ZoneVisitingCount from "./components/ZoneVisitingCount";
-import "./index.css"; // Explicitly import Tailwind CSS
+import "./index.css"; 
 import {useState} from 'react';
+import ZoneVisitingDuration from "./components/ZoneVisitingDuration";
+import PhysAgeDistribution from "./components/PhysAgeDistribution";
+import PhysGenderDistribution from "./components/PhysGenderDistribution";
+import PhysSales from "./components/PhysSales";
+import OnlineSales from "./components/OnlineSales";
+import ProductInfluence from "./components/ProductInfluence";
+import OnlBehaviour from "./components/OnlBehaviour";
+import OnlAgeDistribution from "./components/OnlAgeDistribution";
+import OnlGenderDistribution from "./components/OnlGenderDistribution";
 
 const App = () => {
   const [selectedTab, setSelectedTab] = useState("Tracking");
@@ -11,12 +19,12 @@ const App = () => {
     <div>
       <div
         className="w-1919 flex justify-center items-center border border-gray-300 rounded-[1rem] gap-[3rem]"
-        style={{ padding: ".5rem", margin: "0rem 0 0 0" }}
+        style={{ padding: ".5rem", margin: "0rem 0 0 0", backgroundColor: "lightgray" }}
       >
         <div
           className="text-[2.3rem] rounded-[1rem]"
           style={{
-            backgroundColor: "lightblue",
+            backgroundColor: "gray",
             padding: ".5rem",
             cursor: "pointer",
           }}
@@ -27,7 +35,7 @@ const App = () => {
         <div
           className="text-[2.3rem] rounded-[1rem]"
           style={{
-            backgroundColor: "lightblue",
+            backgroundColor: "gray",
             padding: ".5rem",
             cursor: "pointer",
           }}
@@ -38,7 +46,7 @@ const App = () => {
         <div
           className="text-[2.3rem] rounded-[1rem]"
           style={{
-            backgroundColor: "lightblue",
+            backgroundColor: "gray",
             padding: ".5rem",
             cursor: "pointer",
           }}
@@ -49,7 +57,7 @@ const App = () => {
         <div
           className="text-[2.3rem] rounded-[1rem]"
           style={{
-            backgroundColor: "lightblue",
+            backgroundColor: "gray",
             padding: ".5rem",
             cursor: "pointer",
           }}
@@ -60,7 +68,7 @@ const App = () => {
         <div
           className="text-[2.3rem] rounded-[1rem]"
           style={{
-            backgroundColor: "lightblue",
+            backgroundColor: "gray",
             padding: ".5rem",
             cursor: "pointer",
           }}
@@ -71,7 +79,24 @@ const App = () => {
       </div>
 
       {selectedTab === "Tracking" && <HumanTrackingDisplay />}
-      {selectedTab === "Physical Data" && (<ZoneVisitingCount />)}
+      {selectedTab === "Physical Data" && (
+        <>
+          <ZoneVisitingCount />
+          <ZoneVisitingDuration />
+          <PhysAgeDistribution />
+          <PhysGenderDistribution />
+          <PhysSales />
+        </>
+      )}
+      {selectedTab === "Online Data" && (
+        <>
+          <OnlineSales />
+          <ProductInfluence />
+          <OnlBehaviour />
+          <OnlAgeDistribution />
+          <OnlGenderDistribution />
+        </>
+      )}
       {/* <div className='w-full h-96'><BarChart /></div> */}
 
       {/* <ZoneVisitingCount /> */}

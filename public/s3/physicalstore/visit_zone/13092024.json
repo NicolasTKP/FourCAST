@@ -1,34 +1,121 @@
 [
     {
-        "Electronics": 164.81
+        "VisitID":"V00042",
+        "CustomerID":"C0005",
+        "Date":"2024-09-13 14:23:00",
+        "ZonesVisited":"['Z014', 'Z015', 'Z007', 'Z013', 'Z003']",
+        "Durations":"[26.93, 12.59, 43.3, 25.4, 6.75]"
     },
     {
-        "Home": 234.63,
-        "Toys": 221.08,
-        "Clothing": 190.62
+        "VisitID":"V00090",
+        "CustomerID":"C0012",
+        "Date":"2024-09-13 19:17:00",
+        "ZonesVisited":"['Z009']",
+        "Durations":"[32.65]"
     },
     {
-        "Groceries": 35.05,
-        "Electronics": 31.37,
-        "Toys": 164.79
+        "VisitID":"V01290",
+        "CustomerID":"C0133",
+        "Date":"2024-09-13 18:40:00",
+        "ZonesVisited":"['Z015', 'Z003', 'Z013']",
+        "Durations":"[8.27, 12.52, 4.15]"
     },
     {
-        "Groceries": 46.02
+        "VisitID":"V01815",
+        "CustomerID":"C0184",
+        "Date":"2024-09-13 13:13:00",
+        "ZonesVisited":"['Z006', 'Z014', 'Z001', 'Z003']",
+        "Durations":"[26.13, 18.54, 26.53, 6.58]"
     },
     {
-        "Groceries": 82.45,
-        "Electronics": 252.06,
-        "Home": 56.94,
-        "Sports": 198.72
+        "VisitID":"V02564",
+        "CustomerID":"C0260",
+        "Date":"2024-09-13 17:30:00",
+        "ZonesVisited":"['Z007', 'Z010', 'Z008', 'Z012', 'Z009']",
+        "Durations":"[10.32, 36.99, 41.47, 33.88, 20.36]"
     },
     {
-        "None": 294.42,
-        "Toys": 117.18
+        "VisitID":"V02720",
+        "CustomerID":"C0277",
+        "Date":"2024-09-13 17:23:00",
+        "ZonesVisited":"['Z007', 'Z010', 'Z006', 'Z003']",
+        "Durations":"[39.91, 44.14, 35.44, 40.64]"
     },
     {
-        "Home": 63.75,
-        "Toys": 53.55,
-        "Groceries": 290.26,
-        "Clothing": 277.23
+        "VisitID":"V02867",
+        "CustomerID":"C0293",
+        "Date":"2024-09-13 17:42:00",
+        "ZonesVisited":"['Z014']",
+        "Durations":"[39.77]"
+    },
+    {
+        "VisitID":"V03293",
+        "CustomerID":"C0335",
+        "Date":"2024-09-13 16:40:00",
+        "ZonesVisited":"['Z015']",
+        "Durations":"[17.08]"
+    },
+    {
+        "VisitID":"V03468",
+        "CustomerID":"C0351",
+        "Date":"2024-09-13 16:20:00",
+        "ZonesVisited":"['Z005', 'Z003', 'Z015', 'Z012']",
+        "Durations":"[26.2, 34.56, 23.95, 20.5]"
+    },
+    {
+        "VisitID":"V03540",
+        "CustomerID":"C0357",
+        "Date":"2024-09-13 17:46:00",
+        "ZonesVisited":"['Z002']",
+        "Durations":"[42.72]"
+    },
+    {
+        "VisitID":"V03656",
+        "CustomerID":"C0372",
+        "Date":"2024-09-13 10:20:00",
+        "ZonesVisited":"['Z008', 'Z014']",
+        "Durations":"[28.25, 23.74]"
+    },
+    {
+        "VisitID":"V04581",
+        "CustomerID":"C0464",
+        "Date":"2024-09-13 18:16:00",
+        "ZonesVisited":"['Z010']",
+        "Durations":"[43.19]"
+    },
+    {
+        "VisitID":"V05100",
+        "CustomerID":"C0517",
+        "Date":"2024-09-13 21:03:00",
+        "ZonesVisited":"['Z003', 'Z014', 'Z010', 'Z009', 'Z007']",
+        "Durations":"[17.01, 33.34, 25.84, 17.83, 7.37]"
+    },
+    {
+        "VisitID":"V05629",
+        "CustomerID":"C0574",
+        "Date":"2024-09-13 15:26:00",
+        "ZonesVisited":"['Z011', 'Z001', 'Z008', 'Z009', 'Z004']",
+        "Durations":"[14.49, 8.04, 18.7, 24.47, 12.84]"
+    },
+    {
+        "VisitID":"V07132",
+        "CustomerID":"C0719",
+        "Date":"2024-09-13 15:59:00",
+        "ZonesVisited":"['Z014', 'Z005', 'Z002', 'Z013', 'Z007']",
+        "Durations":"[16.29, 44.7, 4.05, 14.83, 34.46]"
+    },
+    {
+        "VisitID":"V07173",
+        "CustomerID":"C0722",
+        "Date":"2024-09-13 12:03:00",
+        "ZonesVisited":"['Z008', 'Z010']",
+        "Durations":"[39.14, 16.22]"
+    },
+    {
+        "VisitID":"V08100",
+        "CustomerID":"C0814",
+        "Date":"2024-09-13 21:16:00",
+        "ZonesVisited":"['Z005', 'Z014', 'Z007', 'Z012']",
+        "Durations":"[42.43, 14.5, 34.33, 9.07]"
     }
 ]

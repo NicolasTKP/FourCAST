@@ -1,29 +1,58 @@
 [
     {
-        "Sports": 177.01
+        "VisitID":"V00519",
+        "CustomerID":"C0057",
+        "Date":"2024-03-02 20:39:00",
+        "ZonesVisited":"['Z004']",
+        "Durations":"[14.53]"
     },
     {
-        "Clothing": 17.73,
-        "Toys": 88.39,
-        "Electronics": 191.47,
-        "Sports": 42.59
+        "VisitID":"V00541",
+        "CustomerID":"C0060",
+        "Date":"2024-03-02 19:05:00",
+        "ZonesVisited":"['Z014']",
+        "Durations":"[9.33]"
     },
     {
-        "Electronics": 175.14,
-        "Toys": 15.17
+        "VisitID":"V01917",
+        "CustomerID":"C0194",
+        "Date":"2024-03-02 19:49:00",
+        "ZonesVisited":"['Z013', 'Z015', 'Z008', 'Z014', 'Z004']",
+        "Durations":"[12.46, 29.31, 33.64, 33.14, 24.32]"
     },
     {
-        "None": 253.06
+        "VisitID":"V04115",
+        "CustomerID":"C0417",
+        "Date":"2024-03-02 10:52:00",
+        "ZonesVisited":"['Z013', 'Z003', 'Z005', 'Z004']",
+        "Durations":"[40.48, 36.2, 20.76, 34.79]"
     },
     {
-        "Clothing": 55.98,
-        "Groceries": 147.01,
-        "None": 213.43,
-        "Electronics": 269.69
+        "VisitID":"V06160",
+        "CustomerID":"C0626",
+        "Date":"2024-03-02 17:46:00",
+        "ZonesVisited":"['Z010', 'Z013', 'Z011', 'Z007', 'Z014']",
+        "Durations":"[20.71, 5.72, 11.85, 43.5, 16.78]"
     },
     {
-        "Clothing": 190.5,
-        "Electronics": 139.39,
-        "Groceries": 155.15
+        "VisitID":"V07358",
+        "CustomerID":"C0739",
+        "Date":"2024-03-02 13:52:00",
+        "ZonesVisited":"['Z006', 'Z003', 'Z013', 'Z012']",
+        "Durations":"[22.13, 6.86, 18.91, 11.16]"
+    },
+    {
+        "VisitID":"V08153",
+        "CustomerID":"C0819",
+        "Date":"2024-03-02 09:28:00",
+        "ZonesVisited":"['Z002', 'Z015', 'Z013', 'Z006', 'Z014']",
+        "Durations":"[22.43, 34.97, 39.96, 8.68, 7.29]"
+    },
+    {
+        "VisitID":"V09438",
+        "CustomerID":"C0946",
+        "Date":"2024-03-02 21:36:00",
+        "ZonesVisited":"['Z004']",
+        "Durations":"[5.08]"
     }
 ]

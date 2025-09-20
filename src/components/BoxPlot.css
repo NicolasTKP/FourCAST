@@ -1,0 +1,167 @@
+/* BoxPlot.css */
+
+.box-plot-container {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.box-plot-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+.box-plot-wrapper {
+  display: flex;
+}
+
+.box-plot-y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48px;
+  padding-right: 8px;
+}
+
+.box-plot-y-label {
+  font-size: 12px;
+  color: #6b7280;
+  text-align: right;
+}
+
+.box-plot-area {
+  flex: 1;
+  position: relative;
+}
+
+.box-plot-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.box-plot-grid-line {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #e5e7eb;
+}
+
+.box-plot-boxes {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.box-plot-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.box-plot-stats {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+    white-space: normal;   /* allow wrapping */
+  word-wrap: break-word; /* break long words if needed */
+  z-index: 5;
+  width: 150px;
+}
+
+.box-plot-item:hover .box-plot-stats {
+  opacity: 1;
+}
+
+.box-plot-whisker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.box-plot-whisker-top {
+  width: 2px;
+  background-color: #374151;
+  margin-bottom: 2px;
+}
+
+.box-plot-whisker-cap-top {
+  width: 12px;
+  height: 2px;
+  background-color: #374151;
+  margin-bottom: 2px;
+}
+
+.box-plot-box {
+  border: 2px solid #3b82f6;
+  background-color: rgba(59, 130, 246, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.box-plot-box:hover {
+  background-color: rgba(59, 130, 246, 0.4);
+  border-color: #2563eb;
+}
+
+.box-plot-median {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #dc2626;
+  left: 0;
+}
+
+.box-plot-whisker-bottom {
+  width: 2px;
+  background-color: #374151;
+  margin-top: 2px;
+}
+
+.box-plot-whisker-cap-bottom {
+  width: 12px;
+  height: 2px;
+  background-color: #374151;
+  margin-top: 2px;
+}
+
+.box-plot-outliers {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-plot-outlier {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #ef4444;
+  margin: 1px 0;
+  position: absolute;
+}
+
+.box-plot-x-label {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 8px;
+  text-align: center;
+}

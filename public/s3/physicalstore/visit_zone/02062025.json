@@ -1,37 +1,121 @@
 [
     {
-        "Sports": 121.2,
-        "Toys": 137.95,
-        "Groceries": 36.9
+        "VisitID":"V00591",
+        "CustomerID":"C0064",
+        "Date":"2025-06-02 19:33:00",
+        "ZonesVisited":"['Z007', 'Z014', 'Z003', 'Z002', 'Z005']",
+        "Durations":"[10.11, 7.76, 14.7, 10.66, 37.69]"
     },
     {
-        "Home": 81.87,
-        "Electronics": 215.89,
-        "Clothing": 157.72
+        "VisitID":"V00619",
+        "CustomerID":"C0067",
+        "Date":"2025-06-02 14:35:00",
+        "ZonesVisited":"['Z014', 'Z007', 'Z012', 'Z005', 'Z003']",
+        "Durations":"[16.31, 29.79, 17.88, 10.63, 11.48]"
     },
     {
-        "Sports": 64.07,
-        "Clothing": 277.35
+        "VisitID":"V00888",
+        "CustomerID":"C0094",
+        "Date":"2025-06-02 13:42:00",
+        "ZonesVisited":"['Z005', 'Z001', 'Z011']",
+        "Durations":"[11.58, 22.31, 42.56]"
     },
     {
-        "Electronics": 19.49,
-        "Clothing": 180.17,
-        "Toys": 169.13
+        "VisitID":"V03262",
+        "CustomerID":"C0332",
+        "Date":"2025-06-02 18:47:00",
+        "ZonesVisited":"['Z005']",
+        "Durations":"[34.1]"
     },
     {
-        "Sports": 103.23,
-        "Home": 34.07,
-        "Groceries": 266.64
+        "VisitID":"V03935",
+        "CustomerID":"C0398",
+        "Date":"2025-06-02 16:17:00",
+        "ZonesVisited":"['Z008', 'Z007', 'Z011']",
+        "Durations":"[3.85, 31.41, 3.97]"
     },
     {
-        "Home": 201.24
+        "VisitID":"V04123",
+        "CustomerID":"C0418",
+        "Date":"2025-06-02 20:49:00",
+        "ZonesVisited":"['Z011', 'Z003', 'Z007', 'Z014']",
+        "Durations":"[11.36, 43.25, 16.31, 4.31]"
     },
     {
-        "Groceries": 78.84,
-        "Sports": 282.24
+        "VisitID":"V04240",
+        "CustomerID":"C0430",
+        "Date":"2025-06-02 20:14:00",
+        "ZonesVisited":"['Z010', 'Z001', 'Z004', 'Z002']",
+        "Durations":"[11.6, 4.07, 22.44, 29.1]"
     },
     {
-        "Groceries": 292.64,
-        "None": 68.67
+        "VisitID":"V05336",
+        "CustomerID":"C0542",
+        "Date":"2025-06-02 21:55:00",
+        "ZonesVisited":"['Z010', 'Z011']",
+        "Durations":"[38.23, 37.8]"
+    },
+    {
+        "VisitID":"V05566",
+        "CustomerID":"C0568",
+        "Date":"2025-06-02 15:44:00",
+        "ZonesVisited":"['Z012', 'Z006']",
+        "Durations":"[5.66, 39.11]"
+    },
+    {
+        "VisitID":"V05620",
+        "CustomerID":"C0573",
+        "Date":"2025-06-02 15:18:00",
+        "ZonesVisited":"['Z001', 'Z014']",
+        "Durations":"[44.67, 8.8]"
+    },
+    {
+        "VisitID":"V06393",
+        "CustomerID":"C0648",
+        "Date":"2025-06-02 11:57:00",
+        "ZonesVisited":"['Z008']",
+        "Durations":"[16.74]"
+    },
+    {
+        "VisitID":"V07195",
+        "CustomerID":"C0724",
+        "Date":"2025-06-02 09:07:00",
+        "ZonesVisited":"['Z008']",
+        "Durations":"[25.08]"
+    },
+    {
+        "VisitID":"V07922",
+        "CustomerID":"C0795",
+        "Date":"2025-06-02 15:17:00",
+        "ZonesVisited":"['Z006', 'Z012', 'Z010', 'Z004', 'Z003']",
+        "Durations":"[28.55, 43.49, 25.79, 14.28, 31.84]"
+    },
+    {
+        "VisitID":"V08574",
+        "CustomerID":"C0861",
+        "Date":"2025-06-02 19:51:00",
+        "ZonesVisited":"['Z012', 'Z011', 'Z008']",
+        "Durations":"[9.29, 8.41, 30.47]"
+    },
+    {
+        "VisitID":"V09129",
+        "CustomerID":"C0915",
+        "Date":"2025-06-02 19:38:00",
+        "ZonesVisited":"['Z014', 'Z008', 'Z012']",
+        "Durations":"[17.14, 16.26, 27.8]"
+    },
+    {
+        "VisitID":"V09214",
+        "CustomerID":"C0924",
+        "Date":"2025-06-02 20:21:00",
+        "ZonesVisited":"['Z015', 'Z006', 'Z014', 'Z004']",
+        "Durations":"[25.17, 10.22, 22.47, 35.51]"
+    },
+    {
+        "VisitID":"V09849",
+        "CustomerID":"C0990",
+        "Date":"2025-06-02 18:21:00",
+        "ZonesVisited":"['Z014', 'Z001', 'Z010', 'Z008']",
+        "Durations":"[40.63, 3.39, 38.94, 37.69]"
     }
 ]

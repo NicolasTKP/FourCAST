@@ -1,0 +1,133 @@
+/* PieChart.css */
+
+.pie-chart-container {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.pie-chart-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+.pie-chart-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.pie-chart-svg-container {
+  position: relative;
+}
+
+.pie-chart-slice {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.pie-chart-slice:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.pie-chart-slice-path {
+  stroke: #ffffff;
+  stroke-width: 2;
+}
+
+.pie-chart-label {
+  font-size: 12px;
+  font-weight: 500;
+  fill: #374151;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}
+
+.pie-chart-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.pie-chart-tooltip.visible {
+  opacity: 1;
+}
+
+.pie-chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.pie-chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pie-chart-legend-item:hover {
+  background-color: #f3f4f6;
+}
+
+.pie-chart-legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.pie-chart-legend-text {
+  font-size: 14px;
+  color: #374151;
+  display: flex;
+  flex-direction: column;
+}
+
+.pie-chart-legend-label {
+  font-weight: 500;
+}
+
+.pie-chart-legend-value {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.pie-chart-center-label {
+  font-size: 14px;
+  font-weight: bold;
+  fill: #374151;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}
+
+.pie-chart-center-value {
+  font-size: 18px;
+  font-weight: bold;
+  fill: #3b82f6;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}

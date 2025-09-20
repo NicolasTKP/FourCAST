@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { TEChart } from "tw-elements-react";
+import { useEffect, useState } from "react";
 import BarChart from "./BarChart";
 
 interface ChartDataItem {
@@ -77,7 +76,7 @@ const ZoneVisitingCount = () => {
   return (
     <div>
       {zones.length > 0 ? (
-        <BarChart data={chartData} />
+        <BarChart data={chartData} title="Zone Visiting Count" />
       ) : (
         <p>Loading zone data...</p>
       )}
