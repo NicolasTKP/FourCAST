@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "14112024 20:55:42",
+        "InStoreDuration": 56.18
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "14112024 23:19:43",
+        "InStoreDuration": 17.05
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "14112024 14:54:44",
+        "InStoreDuration": 29.59
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "14112024 05:35:34",
+        "InStoreDuration": 116.07
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "14112024 17:59:35",
+        "InStoreDuration": 113.03
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Male",
+        "DateTime": "14112024 20:49:33",
+        "InStoreDuration": 41.24
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "14112024 17:41:21",
+        "InStoreDuration": 106.77
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "14112024 12:50:09",
+        "InStoreDuration": 108.72
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "14112024 19:10:06",
+        "InStoreDuration": 37.67
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "14112024 21:23:17",
+        "InStoreDuration": 15.22
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "14112024 02:48:30",
+        "InStoreDuration": 35.99
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "14112024 13:31:37",
+        "InStoreDuration": 30.64
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "14112024 12:44:31",
+        "InStoreDuration": 86.72
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "14112024 04:37:34",
+        "InStoreDuration": 1.27
+    }
+]

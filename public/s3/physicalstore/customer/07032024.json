@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "07032024 17:16:30",
+        "InStoreDuration": 74.16
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "07032024 19:08:43",
+        "InStoreDuration": 36.43
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "07032024 12:25:16",
+        "InStoreDuration": 106.99
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "07032024 21:51:25",
+        "InStoreDuration": 100.86
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "07032024 23:42:55",
+        "InStoreDuration": 111.67
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "07032024 01:14:31",
+        "InStoreDuration": 31.74
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Male",
+        "DateTime": "07032024 07:14:35",
+        "InStoreDuration": 81.71
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "07032024 02:32:25",
+        "InStoreDuration": 114.82
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "07032024 06:25:11",
+        "InStoreDuration": 20.74
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "07032024 00:52:04",
+        "InStoreDuration": 111.18
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "07032024 15:29:11",
+        "InStoreDuration": 100.9
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Male",
+        "DateTime": "07032024 12:19:36",
+        "InStoreDuration": 70.39
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "07032024 06:17:37",
+        "InStoreDuration": 10.93
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "07032024 23:49:12",
+        "InStoreDuration": 62.46
+    }
+]

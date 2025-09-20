@@ -29,9 +29,10 @@ const HumanTrackingDisplay: React.FC = () => {
   }, []);
 
   return (
-    <div className="human-tracking-display flex items-center justify-center h-full">
+    <div className="human-tracking-display flex items-center justify-center flex-col h-full">
+      <div className='text-[3rem] font-bold mb-4' style={{margin: '0 0 1rem 0'}}>Real Time Human Tracking View</div>
       {frame ? (
-        <img src={frame} alt="Human Tracking Feed" style={{ width: '100%', height: 'auto' }} />
+        <img src={frame} alt="Human Tracking Feed" style={{ width: '55%', height: 'auto' }} />
       ) : (
         <p>Connecting to human tracking feed...</p>
       )}

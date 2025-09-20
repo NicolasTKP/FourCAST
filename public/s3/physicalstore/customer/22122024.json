@@ -1,0 +1,62 @@
+[
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "22122024 07:54:45",
+        "InStoreDuration": 48.62
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Male",
+        "DateTime": "22122024 04:59:17",
+        "InStoreDuration": 68.51
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "22122024 19:41:41",
+        "InStoreDuration": 12.05
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Male",
+        "DateTime": "22122024 08:20:37",
+        "InStoreDuration": 92.11
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "22122024 13:50:12",
+        "InStoreDuration": 72.04
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "22122024 07:00:06",
+        "InStoreDuration": 12.97
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "22122024 04:28:13",
+        "InStoreDuration": 2.43
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "22122024 23:19:39",
+        "InStoreDuration": 12.03
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "22122024 22:16:37",
+        "InStoreDuration": 67.63
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "22122024 23:11:46",
+        "InStoreDuration": 33.95
+    }
+]

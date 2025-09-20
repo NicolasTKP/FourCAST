@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "28092024 01:15:26",
+        "InStoreDuration": 104.28
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "28092024 12:35:00",
+        "InStoreDuration": 52.2
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "28092024 08:00:30",
+        "InStoreDuration": 119.77
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "28092024 23:41:31",
+        "InStoreDuration": 73.88
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Male",
+        "DateTime": "28092024 13:25:39",
+        "InStoreDuration": 27.7
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "28092024 09:22:36",
+        "InStoreDuration": 89.61
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "28092024 22:59:31",
+        "InStoreDuration": 14.12
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "28092024 03:33:52",
+        "InStoreDuration": 50.47
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "28092024 08:38:19",
+        "InStoreDuration": 100.14
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "28092024 12:20:26",
+        "InStoreDuration": 102.52
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "28092024 15:12:56",
+        "InStoreDuration": 20.54
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "28092024 02:19:04",
+        "InStoreDuration": 68.85
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "28092024 09:11:52",
+        "InStoreDuration": 9.7
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "28092024 07:47:00",
+        "InStoreDuration": 28.07
+    }
+]

@@ -2,6 +2,8 @@ import asyncio
 import websockets
 import engines.zone as engine
 import threading
+from engines.s3datasync import S3DataSync
+
 
 async def handler(websocket):
     print(f"Client connected from {websocket.remote_address}")
@@ -18,4 +20,9 @@ async def main():
     await server.wait_closed()
 
 if __name__ == "__main__":
+    # Start S3 sync service
+    s3_sync = S3DataSync()  # Create instance
+    s3_thread = threading.Thread(target=s3_sync.run, daemon=True)  # Create thread
+    s3_thread.start()  # Start the thread
     asyncio.run(main())
+

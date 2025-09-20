@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "02082025 16:02:13",
+        "InStoreDuration": 74.32
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "02082025 13:00:25",
+        "InStoreDuration": 24.71
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "02082025 03:30:35",
+        "InStoreDuration": 86.66
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "02082025 04:50:10",
+        "InStoreDuration": 46.63
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "02082025 10:02:11",
+        "InStoreDuration": 119.77
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "02082025 05:22:40",
+        "InStoreDuration": 4.22
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "02082025 14:01:20",
+        "InStoreDuration": 83.54
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "02082025 02:32:26",
+        "InStoreDuration": 77.29
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "02082025 23:22:02",
+        "InStoreDuration": 107.15
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "02082025 18:50:25",
+        "InStoreDuration": 53.75
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "02082025 17:44:10",
+        "InStoreDuration": 16.38
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "02082025 10:10:35",
+        "InStoreDuration": 93.88
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "02082025 09:53:50",
+        "InStoreDuration": 109.36
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "02082025 01:26:16",
+        "InStoreDuration": 43.06
+    }
+]

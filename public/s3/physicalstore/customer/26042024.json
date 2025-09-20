@@ -1,0 +1,116 @@
+[
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "26042024 01:04:01",
+        "InStoreDuration": 105.75
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "26042024 10:11:26",
+        "InStoreDuration": 14.53
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "26042024 11:12:28",
+        "InStoreDuration": 30.91
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "26042024 01:07:20",
+        "InStoreDuration": 87.32
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "26042024 07:41:49",
+        "InStoreDuration": 46.96
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "26042024 14:10:42",
+        "InStoreDuration": 77.58
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "26042024 16:25:33",
+        "InStoreDuration": 50.92
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "26042024 02:07:30",
+        "InStoreDuration": 5.88
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "26042024 02:31:27",
+        "InStoreDuration": 76.17
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "26042024 22:43:32",
+        "InStoreDuration": 56.34
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "26042024 07:38:37",
+        "InStoreDuration": 56.74
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "26042024 04:35:01",
+        "InStoreDuration": 97.17
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "26042024 06:26:48",
+        "InStoreDuration": 18.23
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "26042024 19:07:05",
+        "InStoreDuration": 38.65
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "26042024 09:44:54",
+        "InStoreDuration": 19.13
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "26042024 18:27:54",
+        "InStoreDuration": 19.18
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "26042024 05:20:19",
+        "InStoreDuration": 74.71
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "26042024 02:55:47",
+        "InStoreDuration": 75.17
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Male",
+        "DateTime": "26042024 19:10:17",
+        "InStoreDuration": 98.08
+    }
+]

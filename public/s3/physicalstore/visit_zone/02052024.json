@@ -1,0 +1,54 @@
+[
+    {
+        "Home": 177.64,
+        "Clothing": 257.9,
+        "Sports": 180.38,
+        "None": 297.89
+    },
+    {
+        "Home": 126.08,
+        "Clothing": 41.4,
+        "Toys": 197.96
+    },
+    {
+        "Electronics": 288.55,
+        "Sports": 26.85,
+        "Clothing": 290.32,
+        "Home": 147.36
+    },
+    {
+        "Clothing": 11.88,
+        "Toys": 177.25,
+        "Sports": 271.61,
+        "Home": 15.47
+    },
+    {
+        "Groceries": 86.35
+    },
+    {
+        "Clothing": 252.53,
+        "Groceries": 242.62,
+        "Sports": 77.68
+    },
+    {
+        "Clothing": 180.53,
+        "None": 15.68
+    },
+    {
+        "Toys": 248.85,
+        "None": 253.79,
+        "Groceries": 210.59,
+        "Clothing": 222.96
+    },
+    {
+        "None": 281.89,
+        "Clothing": 43.66,
+        "Electronics": 252.56,
+        "Sports": 296.54
+    },
+    {
+        "Toys": 54.84,
+        "Groceries": 175.22,
+        "None": 128.64
+    }
+]

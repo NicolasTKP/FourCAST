@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(48-53)",
+        "Gender": "Male",
+        "DateTime": "18082025 11:32:33",
+        "InStoreDuration": 62.63
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Male",
+        "DateTime": "18082025 10:00:42",
+        "InStoreDuration": 38.51
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "18082025 01:57:22",
+        "InStoreDuration": 71.37
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "18082025 14:20:02",
+        "InStoreDuration": 115.65
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "18082025 08:13:39",
+        "InStoreDuration": 45.87
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "18082025 11:27:27",
+        "InStoreDuration": 1.15
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "18082025 19:10:23",
+        "InStoreDuration": 98.87
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "18082025 16:30:35",
+        "InStoreDuration": 68.26
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "18082025 00:33:52",
+        "InStoreDuration": 46.29
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "18082025 10:45:45",
+        "InStoreDuration": 6.94
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "18082025 13:17:06",
+        "InStoreDuration": 86.93
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "18082025 23:09:56",
+        "InStoreDuration": 48.07
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "18082025 10:03:48",
+        "InStoreDuration": 65.58
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "18082025 17:55:58",
+        "InStoreDuration": 35.23
+    }
+]

@@ -12,18 +12,23 @@
     "preview": "vite preview",
     "electron": "wait-on tcp:3000 && cross-env IS_DEV=true electron electron/electron.cjs",
     "electron:pack": "electron-builder --dir",
-    "electron:dev": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"npm run electron\"",
+    "electron:dev": "concurrently \"cross-env BROWSER=none npm run dev\" \"npm run electron\" \"python src/sync.py\"",
     "build:for:electron": "tsc --noEmit && cross-env ELECTRON=true vite build",
     "app:build": "npm run build:for:electron && npm run electron:builder"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.893.0",
+    "@heroicons/react": "^2.2.0",
+    "@material-tailwind/react": "^2.1.10",
+    "apexcharts": "^5.3.5",
     "concurrently": "^9.2.1",
     "cross-env": "^10.0.0",
     "jszip": "^3.10.1",
     "react": "^19.1.1",
+    "react-apexcharts": "^1.7.0",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.13",
+    "tw-elements-react": "^1.0.0-alpha-end",
     "wait-on": "^9.0.0"
   },
   "devDependencies": {

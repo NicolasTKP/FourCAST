@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "01022025 12:57:35",
+        "InStoreDuration": 46.01
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "01022025 09:08:44",
+        "InStoreDuration": 70.07
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "01022025 04:43:53",
+        "InStoreDuration": 99.19
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "01022025 22:07:18",
+        "InStoreDuration": 117.63
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "01022025 23:19:01",
+        "InStoreDuration": 3.87
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "01022025 22:46:09",
+        "InStoreDuration": 66.32
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Male",
+        "DateTime": "01022025 02:31:21",
+        "InStoreDuration": 116.92
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Female",
+        "DateTime": "01022025 12:34:31",
+        "InStoreDuration": 58.21
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "01022025 13:33:19",
+        "InStoreDuration": 76.13
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "01022025 14:15:09",
+        "InStoreDuration": 40.54
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "01022025 23:49:01",
+        "InStoreDuration": 21.95
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "01022025 06:15:38",
+        "InStoreDuration": 66.88
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "01022025 13:24:19",
+        "InStoreDuration": 66.2
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "01022025 03:39:43",
+        "InStoreDuration": 63.41
+    }
+]

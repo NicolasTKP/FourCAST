@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "30032025 22:20:05",
+        "InStoreDuration": 51.1
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "30032025 23:37:06",
+        "InStoreDuration": 63.71
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "30032025 12:14:06",
+        "InStoreDuration": 22.58
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "30032025 21:50:35",
+        "InStoreDuration": 0.63
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "30032025 21:43:51",
+        "InStoreDuration": 11.46
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "30032025 10:08:12",
+        "InStoreDuration": 30.4
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "30032025 11:31:42",
+        "InStoreDuration": 75.33
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "30032025 03:46:09",
+        "InStoreDuration": 45.52
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "30032025 06:17:09",
+        "InStoreDuration": 24.87
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "30032025 05:37:41",
+        "InStoreDuration": 81.43
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "30032025 14:12:14",
+        "InStoreDuration": 119.46
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "30032025 10:27:28",
+        "InStoreDuration": 86.36
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "30032025 03:37:31",
+        "InStoreDuration": 119.95
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "30032025 19:51:41",
+        "InStoreDuration": 51.13
+    }
+]

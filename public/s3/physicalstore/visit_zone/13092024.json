@@ -1,0 +1,34 @@
+[
+    {
+        "Electronics": 164.81
+    },
+    {
+        "Home": 234.63,
+        "Toys": 221.08,
+        "Clothing": 190.62
+    },
+    {
+        "Groceries": 35.05,
+        "Electronics": 31.37,
+        "Toys": 164.79
+    },
+    {
+        "Groceries": 46.02
+    },
+    {
+        "Groceries": 82.45,
+        "Electronics": 252.06,
+        "Home": 56.94,
+        "Sports": 198.72
+    },
+    {
+        "None": 294.42,
+        "Toys": 117.18
+    },
+    {
+        "Home": 63.75,
+        "Toys": 53.55,
+        "Groceries": 290.26,
+        "Clothing": 277.23
+    }
+]

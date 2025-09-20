@@ -1,0 +1,92 @@
+[
+    {
+        "Age": "(4-6)",
+        "Gender": "Male",
+        "DateTime": "06012025 07:29:37",
+        "InStoreDuration": 27.19
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "06012025 11:12:04",
+        "InStoreDuration": 35.46
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "06012025 06:44:15",
+        "InStoreDuration": 39.86
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "06012025 11:20:27",
+        "InStoreDuration": 87.48
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "06012025 08:30:39",
+        "InStoreDuration": 110.8
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "06012025 17:53:01",
+        "InStoreDuration": 106.07
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Male",
+        "DateTime": "06012025 18:14:36",
+        "InStoreDuration": 103.34
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "06012025 07:01:17",
+        "InStoreDuration": 83.12
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "06012025 13:35:07",
+        "InStoreDuration": 62.17
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "06012025 20:31:54",
+        "InStoreDuration": 11.43
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "06012025 06:07:33",
+        "InStoreDuration": 69.78
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "06012025 05:54:33",
+        "InStoreDuration": 117.72
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "06012025 02:55:17",
+        "InStoreDuration": 67.64
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "06012025 12:44:59",
+        "InStoreDuration": 50.0
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Male",
+        "DateTime": "06012025 22:13:01",
+        "InStoreDuration": 60.85
+    }
+]

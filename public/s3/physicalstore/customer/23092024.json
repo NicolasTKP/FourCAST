@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "23092024 03:19:45",
+        "InStoreDuration": 50.02
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "23092024 20:01:32",
+        "InStoreDuration": 18.98
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "23092024 21:19:58",
+        "InStoreDuration": 107.36
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "23092024 01:23:48",
+        "InStoreDuration": 66.39
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "23092024 21:11:26",
+        "InStoreDuration": 15.32
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "23092024 00:09:39",
+        "InStoreDuration": 67.96
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "23092024 03:47:13",
+        "InStoreDuration": 115.33
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "23092024 21:51:10",
+        "InStoreDuration": 90.42
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "23092024 23:30:44",
+        "InStoreDuration": 73.15
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "23092024 04:39:01",
+        "InStoreDuration": 65.03
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "23092024 06:49:14",
+        "InStoreDuration": 68.4
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "23092024 12:36:15",
+        "InStoreDuration": 104.79
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "23092024 07:51:39",
+        "InStoreDuration": 18.34
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Male",
+        "DateTime": "23092024 01:09:57",
+        "InStoreDuration": 94.66
+    }
+]

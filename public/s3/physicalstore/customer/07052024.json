@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "07052024 00:33:43",
+        "InStoreDuration": 105.02
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "07052024 03:13:21",
+        "InStoreDuration": 92.64
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "07052024 20:53:30",
+        "InStoreDuration": 88.57
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Male",
+        "DateTime": "07052024 14:03:05",
+        "InStoreDuration": 110.38
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "07052024 03:00:27",
+        "InStoreDuration": 18.51
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "07052024 04:36:08",
+        "InStoreDuration": 48.44
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "07052024 14:59:47",
+        "InStoreDuration": 54.55
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "07052024 04:12:36",
+        "InStoreDuration": 117.32
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "07052024 21:49:55",
+        "InStoreDuration": 41.33
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "07052024 07:34:14",
+        "InStoreDuration": 15.44
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "07052024 11:18:51",
+        "InStoreDuration": 103.45
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "07052024 12:44:36",
+        "InStoreDuration": 91.59
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "07052024 19:11:16",
+        "InStoreDuration": 65.47
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Male",
+        "DateTime": "07052024 04:43:46",
+        "InStoreDuration": 16.16
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(48-53)",
+        "Gender": "Male",
+        "DateTime": "31122024 00:05:56",
+        "InStoreDuration": 98.2
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "31122024 15:47:51",
+        "InStoreDuration": 28.08
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "31122024 07:09:09",
+        "InStoreDuration": 73.35
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Male",
+        "DateTime": "31122024 18:20:35",
+        "InStoreDuration": 5.15
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Male",
+        "DateTime": "31122024 10:33:41",
+        "InStoreDuration": 38.89
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Female",
+        "DateTime": "31122024 03:42:07",
+        "InStoreDuration": 48.6
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "31122024 17:22:14",
+        "InStoreDuration": 115.79
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "31122024 09:48:48",
+        "InStoreDuration": 62.16
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "31122024 22:01:28",
+        "InStoreDuration": 47.03
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "31122024 08:08:04",
+        "InStoreDuration": 42.31
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Male",
+        "DateTime": "31122024 03:35:56",
+        "InStoreDuration": 30.8
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "31122024 11:38:19",
+        "InStoreDuration": 9.45
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "31122024 10:27:41",
+        "InStoreDuration": 3.13
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Female",
+        "DateTime": "31122024 09:33:15",
+        "InStoreDuration": 56.86
+    }
+]

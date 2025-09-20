@@ -1,0 +1,86 @@
+[
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "01072025 09:39:02",
+        "InStoreDuration": 64.35
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "01072025 03:24:31",
+        "InStoreDuration": 73.22
+    },
+    {
+        "Age": "(0-2)",
+        "Gender": "Female",
+        "DateTime": "01072025 20:32:00",
+        "InStoreDuration": 70.15
+    },
+    {
+        "Age": "(25-32)",
+        "Gender": "Female",
+        "DateTime": "01072025 17:32:21",
+        "InStoreDuration": 28.72
+    },
+    {
+        "Age": "(15-20)",
+        "Gender": "Male",
+        "DateTime": "01072025 15:41:27",
+        "InStoreDuration": 75.66
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "01072025 12:36:18",
+        "InStoreDuration": 53.1
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Male",
+        "DateTime": "01072025 15:34:30",
+        "InStoreDuration": 80.57
+    },
+    {
+        "Age": "(4-6)",
+        "Gender": "Male",
+        "DateTime": "01072025 18:40:00",
+        "InStoreDuration": 22.95
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Female",
+        "DateTime": "01072025 14:11:49",
+        "InStoreDuration": 22.93
+    },
+    {
+        "Age": "(8-12)",
+        "Gender": "Male",
+        "DateTime": "01072025 12:33:39",
+        "InStoreDuration": 28.71
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "01072025 23:55:05",
+        "InStoreDuration": 39.81
+    },
+    {
+        "Age": "(38-43)",
+        "Gender": "Male",
+        "DateTime": "01072025 19:12:20",
+        "InStoreDuration": 25.01
+    },
+    {
+        "Age": "(48-53)",
+        "Gender": "Female",
+        "DateTime": "01072025 01:59:49",
+        "InStoreDuration": 43.46
+    },
+    {
+        "Age": "(60-100)",
+        "Gender": "Female",
+        "DateTime": "01072025 18:12:49",
+        "InStoreDuration": 4.35
+    }
+]
