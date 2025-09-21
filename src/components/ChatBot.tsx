@@ -19,7 +19,7 @@ const Chatbot = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const DEFAULT_PROMPT =
-    "According all the data, what is the top 5 actions I can perform to improve my store performance. Reply me in numbered list. Starting with 'This is the five high value insights'";
+    "According all the data, what is the top 5 actions I can perform to improve my store performance. Reply me in numbered list, each number in a new line. Starting with 'This is the five high value insights'.";
 
   // Your API endpoint - replace with your actual API URL
   const API_URL = process.env.REACT_APP_AI_AGENT_API || "";
