@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import "./Dropdown.css";
 
 interface DropdownProps {
   label: string;
@@ -32,28 +33,28 @@ export default function Dropdown({ label, options, onSelect }: DropdownProps) {
   }, []);
 
   return (
-    <div ref={dropdownRef} className="relative inline-block w-48">
+    <div ref={dropdownRef} className="relative inline-block w-[auto] grid place-items-end">
       {/* Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full bg-white border border-[rgba(46,36,26,1)] rounded-[1.5rem] px-4 py-2 text-left flex justify-between items-center hover:bg-gray-50 text-[1.2rem]"
-        style={{ fontFamily: "MaShanZheng" }}
+        className="text-left flex justify-between items-center hover:bg-gray-50 text-[1.4rem] border-[.1rem] cursor-pointer"
+        style={{ fontFamily: "MaShanZheng", backgroundColor: "white", borderColor: "#d1d5db", padding: ".1rem .6rem"}}
       >
         {selected}
-        <span className="ml-2">▼</span>
+        <span className="ml-1">▼</span>
       </button>
 
       {/* Dropdown List */}
       {isOpen && (
         <ul
-          className="absolute left-0 mt-1 w-full bg-white border border-gray-300 rounded-lg shadow-lg z-10"
-          style={{ fontFamily: "MaShanZheng" }}
+          className="absolute left-0 mt-1 w-full rounded-lg shadow-lg z-10 list-none min-w-[7rem]"
+          style={{ fontFamily: "MaShanZheng", border: "1px solid #d1d5db", backgroundColor: "white", maxHeight: "200px", overflowY: "auto"}}
         >
           {options.map((option, index) => (
             <li
               key={index}
               onClick={() => handleSelect(option)}
-              className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-[1.2rem]"
+              className="px-4 py-2 cursor-pointer text-[1.2rem] list-item text-[1.4rem] py-[.2rem] whitespace-nowrap"
               style={{ fontFamily: "MaShanZheng" }}
             >
               {option}

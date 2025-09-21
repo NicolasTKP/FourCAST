@@ -54,6 +54,11 @@ if __name__ == "__main__":
     while True:
         print("Starting S3 download sync...")
 
+        # Third bucket
+        BUCKET_NAME = "modelpredictionresult"
+        DOWNLOAD_DIR = os.path.expanduser("../FourCAST/public/s3/modelpredictionresult")
+        download_s3_bucket(BUCKET_NAME, DOWNLOAD_DIR)
+
         # First bucket
         BUCKET_NAME = "onlstores"
         DOWNLOAD_DIR = os.path.expanduser("../FourCAST/public/s3/onlstores")
@@ -63,6 +68,7 @@ if __name__ == "__main__":
         BUCKET_NAME = "physicalstore"
         DOWNLOAD_DIR = os.path.expanduser("../FourCAST/public/s3/physicalstore")
         download_s3_bucket(BUCKET_NAME, DOWNLOAD_DIR)
+
 
         print("Sync complete. Waiting 1 hour...\n")
         time.sleep(3600)

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import LineChart from "./LineChart";
+import { format, subDays, subMonths } from 'date-fns';
 
 interface LineChartDataItem {
   label: string;
@@ -20,7 +21,11 @@ interface SalesData {
   [date: string]: number;
 }
 
-const PhysSales = () => {
+interface OnlSalesProps {
+  timeline: string | null;
+}
+
+const OnlineSales = ({ timeline }: OnlSalesProps) => {
   const [data, setData] = useState<SalesData>({});
 
   useEffect(() => {
@@ -36,7 +41,7 @@ const PhysSales = () => {
         }
         const files: string[] = await indexResponse.json();
 
-        const result: SalesData = {};
+        let allSalesData: SalesData = {};
 
         for (const file of files) {
           try {
@@ -56,7 +61,7 @@ const PhysSales = () => {
               const date = purchase.DateTime.split('T')[0]; // Gets "2025-09-01"
               
               // Add purchase total to daily sales
-              result[date] = (result[date] || 0) + purchase.Total;
+              allSalesData[date] = (allSalesData[date] || 0) + purchase.Total;
             }
           } catch (fileError) {
             console.error(
@@ -66,7 +71,38 @@ const PhysSales = () => {
           }
         }
 
-        setData(result);
+        // Filter sales data based on timeline
+        const now = new Date();
+        let filteredSalesData: SalesData = {};
+
+        if (timeline === "Last Week") {
+          const lastWeek = subDays(now, 7);
+          // Filter object entries by date
+          Object.entries(allSalesData).forEach(([date, total]) => {
+            if (new Date(date) >= lastWeek) {
+              filteredSalesData[date] = total;
+            }
+          });
+        } else if (timeline === "Last Month") {
+          const lastMonth = subMonths(now, 1);
+          Object.entries(allSalesData).forEach(([date, total]) => {
+            if (new Date(date) >= lastMonth) {
+              filteredSalesData[date] = total;
+            }
+          });
+        } else if (timeline === "Last 3 Days") {
+          const last3Days = subDays(now, 3);
+          Object.entries(allSalesData).forEach(([date, total]) => {
+            if (new Date(date) >= last3Days) {
+              filteredSalesData[date] = total;
+            }
+          });
+        } else {
+          // No timeline filter or "All" - use all data
+          filteredSalesData = allSalesData;
+        }
+
+        setData(filteredSalesData);
       } catch (error) {
         console.error("Error loading sales data:", error);
         setData({});
@@ -74,7 +110,7 @@ const PhysSales = () => {
     }
 
     loadData();
-  }, []);
+  }, [timeline]); // Added timeline to dependency array
 
   // Transform data for LineChart
   const salesData: LineChartDataItem[] = Object.entries(data)
@@ -91,7 +127,7 @@ const PhysSales = () => {
           data={salesData} 
           title="Daily Online Store Sales"
           width={650}
-          height={400}
+          height={370}
           showArea={true}
           showPoints={true}
           showGrid={true}
@@ -103,4 +139,4 @@ const PhysSales = () => {
   );
 };
 
-export default PhysSales;
+export default OnlineSales;

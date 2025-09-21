@@ -1,0 +1,11 @@
+{
+  "Format": "Report_CSV_20180820",
+  "ReportCreationDate": "2025-09-21T06:07:11.309550397Z",
+  "Results": [{
+    "TaskExecutionStatus": "succeeded",
+    "Bucket": "onlstores",
+    "MD5Checksum": "262c299b37ddd51c9bab96aefd96ebb5",
+    "Key": "job-aeaae649-164c-4c32-bf1c-7f939fb64728/results/7eff08ec6e24d1c2947ab89c43948cb935c8ca78.csv"
+  }],
+  "ReportSchema": "Bucket, Key, VersionId, TaskStatus, ErrorCode, HTTPStatusCode, ResultMessage"
+}

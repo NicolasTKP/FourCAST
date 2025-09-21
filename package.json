@@ -23,6 +23,7 @@
     "apexcharts": "^5.3.5",
     "concurrently": "^9.2.1",
     "cross-env": "^10.0.0",
+    "date-fns": "^4.1.0",
     "jszip": "^3.10.1",
     "react": "^19.1.1",
     "react-apexcharts": "^1.7.0",
