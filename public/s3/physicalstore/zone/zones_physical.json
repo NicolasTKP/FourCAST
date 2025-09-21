@@ -1,0 +1,92 @@
+[
+    {
+        "ZoneID":"Z001",
+        "ZoneName":"Zone 1",
+        "Categories":"['Category_2', 'Category_1', 'Category_4', 'Category_5']",
+        "Products":"['P0003', 'P0018', 'P0019', 'P0025', 'P0039']"
+    },
+    {
+        "ZoneID":"Z002",
+        "ZoneName":"Zone 2",
+        "Categories":"['Category_2', 'Category_5', 'Category_4', 'Category_3']",
+        "Products":"['P0002', 'P0010', 'P0015', 'P0020']"
+    },
+    {
+        "ZoneID":"Z003",
+        "ZoneName":"Zone 3",
+        "Categories":"['Category_2', 'Category_1']",
+        "Products":"['P0008', 'P0042', 'P0047']"
+    },
+    {
+        "ZoneID":"Z004",
+        "ZoneName":"Zone 4",
+        "Categories":"['Category_1', 'Category_5', 'Category_3', 'Category_4']",
+        "Products":"['P0006', 'P0007', 'P0021', 'P0022', 'P0027', 'P0033', 'P0048']"
+    },
+    {
+        "ZoneID":"Z005",
+        "ZoneName":"Zone 5",
+        "Categories":"['Category_5', 'Category_1']",
+        "Products":"['P0005', 'P0036', 'P0046']"
+    },
+    {
+        "ZoneID":"Z006",
+        "ZoneName":"Zone 6",
+        "Categories":"['Category_1', 'Category_2']",
+        "Products":"['P0045', 'P0050']"
+    },
+    {
+        "ZoneID":"Z007",
+        "ZoneName":"Zone 7",
+        "Categories":"['Category_2', 'Category_3', 'Category_4']",
+        "Products":"['P0017', 'P0032', 'P0044']"
+    },
+    {
+        "ZoneID":"Z008",
+        "ZoneName":"Zone 8",
+        "Categories":"['Category_3']",
+        "Products":"['P0034']"
+    },
+    {
+        "ZoneID":"Z009",
+        "ZoneName":"Zone 9",
+        "Categories":"['Category_1', 'Category_5']",
+        "Products":"['P0014', 'P0023', 'P0026', 'P0031']"
+    },
+    {
+        "ZoneID":"Z010",
+        "ZoneName":"Zone 10",
+        "Categories":"['Category_3', 'Category_4', 'Category_2']",
+        "Products":"['P0016', 'P0024', 'P0035']"
+    },
+    {
+        "ZoneID":"Z011",
+        "ZoneName":"Zone 11",
+        "Categories":"['Category_1', 'Category_5', 'Category_2']",
+        "Products":"['P0001', 'P0011', 'P0029']"
+    },
+    {
+        "ZoneID":"Z012",
+        "ZoneName":"Zone 12",
+        "Categories":"['Category_5', 'Category_2', 'Category_1']",
+        "Products":"['P0004', 'P0009', 'P0012', 'P0028', 'P0030', 'P0043']"
+    },
+    {
+        "ZoneID":"Z013",
+        "ZoneName":"Zone 13",
+        "Categories":"['Category_2', 'Category_3']",
+        "Products":"['P0037', 'P0040', 'P0041', 'P0049']"
+    },
+    {
+        "ZoneID":"Z014",
+        "ZoneName":"Zone 14",
+        "Categories":"['Category_2']",
+        "Products":"['P0038']"
+    },
+    {
+        "ZoneID":"Z015",
+        "ZoneName":"Zone 15",
+        "Categories":"['Category_5']",
+        "Products":"['P0013']"
+    }
+]

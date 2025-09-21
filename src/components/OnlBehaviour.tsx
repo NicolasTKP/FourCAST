@@ -124,8 +124,8 @@ const OnlBehaviour = () => {
         <LineChart 
           series={productData} 
           title="Online Behaviour Analysis"
-          width={1300}
-          height={600}
+          width={650}
+          height={400}
         />
       ) : (
         <p>Loading product data...</p>

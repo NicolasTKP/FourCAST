@@ -1,0 +1,11 @@
+{
+  "Format": "Report_CSV_20180820",
+  "ReportCreationDate": "2025-09-21T03:53:16.223061601Z",
+  "Results": [{
+    "TaskExecutionStatus": "succeeded",
+    "Bucket": "physicalstore",
+    "MD5Checksum": "e1eb4d0e33530cd7280e294d7c437634",
+    "Key": "job-a6332f58-3815-490b-b302-555cbf340f7b/results/0537b95b97c774a26e599ea9e2a67e7a470d7722.csv"
+  }],
+  "ReportSchema": "Bucket, Key, VersionId, TaskStatus, ErrorCode, HTTPStatusCode, ResultMessage"
+}

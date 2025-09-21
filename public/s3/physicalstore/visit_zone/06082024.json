@@ -1,121 +1,70 @@
 [
     {
-        "VisitID":"V00574",
-        "CustomerID":"C0063",
-        "Date":"2024-08-06 14:03:00",
-        "ZonesVisited":"['Z007', 'Z001', 'Z010', 'Z015', 'Z004']",
-        "Durations":"[31.63, 7.16, 29.95, 10.45, 15.21]"
+        "D": 31.63,
+        "E": 17.61,
+        "B": 29.95,
+        "C": 15.21
     },
     {
-        "VisitID":"V00774",
-        "CustomerID":"C0082",
-        "Date":"2024-08-06 10:17:00",
-        "ZonesVisited":"['Z015']",
-        "Durations":"[13.45]"
+        "B": 13.45
     },
     {
-        "VisitID":"V01109",
-        "CustomerID":"C0116",
-        "Date":"2024-08-06 18:53:00",
-        "ZonesVisited":"['Z014', 'Z006', 'Z005']",
-        "Durations":"[31.94, 26.26, 18.66]"
+        "None": 31.94,
+        "B": 26.26,
+        "D": 18.66
     },
     {
-        "VisitID":"V02170",
-        "CustomerID":"C0217",
-        "Date":"2024-08-06 10:37:00",
-        "ZonesVisited":"['Z009', 'Z012', 'Z015']",
-        "Durations":"[37.79, 35.16, 37.32]"
+        "D": 37.79,
+        "A": 35.16,
+        "E": 37.32
     },
     {
-        "VisitID":"V02189",
-        "CustomerID":"C0219",
-        "Date":"2024-08-06 10:51:00",
-        "ZonesVisited":"['Z011']",
-        "Durations":"[15.46]"
+        "A": 15.46
     },
     {
-        "VisitID":"V03086",
-        "CustomerID":"C0316",
-        "Date":"2024-08-06 16:16:00",
-        "ZonesVisited":"['Z011', 'Z001']",
-        "Durations":"[38.22, 5.23]"
+        "A": 38.22,
+        "None": 5.23
     },
     {
-        "VisitID":"V03152",
-        "CustomerID":"C0322",
-        "Date":"2024-08-06 19:55:00",
-        "ZonesVisited":"['Z004', 'Z010']",
-        "Durations":"[35.3, 29.64]"
+        "None": 35.3,
+        "E": 29.64
     },
     {
-        "VisitID":"V03195",
-        "CustomerID":"C0326",
-        "Date":"2024-08-06 14:16:00",
-        "ZonesVisited":"['Z008', 'Z009', 'Z007', 'Z010']",
-        "Durations":"[32.05, 27.75, 29.47, 11.28]"
+        "A": 43.33,
+        "E": 57.22
     },
     {
-        "VisitID":"V03732",
-        "CustomerID":"C0380",
-        "Date":"2024-08-06 19:10:00",
-        "ZonesVisited":"['Z013', 'Z009', 'Z010', 'Z005']",
-        "Durations":"[3.32, 35.97, 42.0, 30.48]"
+        "E": 3.32,
+        "None": 66.45,
+        "A": 42.0
     },
     {
-        "VisitID":"V05252",
-        "CustomerID":"C0533",
-        "Date":"2024-08-06 20:42:00",
-        "ZonesVisited":"['Z001']",
-        "Durations":"[36.52]"
+        "None": 36.52
     },
     {
-        "VisitID":"V05565",
-        "CustomerID":"C0568",
-        "Date":"2024-08-06 18:44:00",
-        "ZonesVisited":"['Z012']",
-        "Durations":"[30.19]"
+        "B": 30.19
     },
     {
-        "VisitID":"V07299",
-        "CustomerID":"C0735",
-        "Date":"2024-08-06 21:57:00",
-        "ZonesVisited":"['Z004']",
-        "Durations":"[25.78]"
+        "B": 25.78
     },
     {
-        "VisitID":"V07376",
-        "CustomerID":"C0741",
-        "Date":"2024-08-06 19:18:00",
-        "ZonesVisited":"['Z013']",
-        "Durations":"[21.82]"
+        "A": 21.82
     },
     {
-        "VisitID":"V07618",
-        "CustomerID":"C0766",
-        "Date":"2024-08-06 15:15:00",
-        "ZonesVisited":"['Z007', 'Z015']",
-        "Durations":"[11.79, 26.48]"
+        "A": 11.79,
+        "B": 26.48
     },
     {
-        "VisitID":"V08012",
-        "CustomerID":"C0806",
-        "Date":"2024-08-06 14:38:00",
-        "ZonesVisited":"['Z008', 'Z013']",
-        "Durations":"[41.44, 19.04]"
+        "A": 41.44,
+        "None": 19.04
     },
     {
-        "VisitID":"V08218",
-        "CustomerID":"C0825",
-        "Date":"2024-08-06 19:41:00",
-        "ZonesVisited":"['Z001', 'Z002', 'Z011', 'Z008', 'Z006']",
-        "Durations":"[10.65, 14.4, 18.74, 32.7, 12.84]"
+        "None": 43.35,
+        "E": 14.4,
+        "B": 31.58
     },
     {
-        "VisitID":"V08607",
-        "CustomerID":"C0864",
-        "Date":"2024-08-06 14:40:00",
-        "ZonesVisited":"['Z006', 'Z002', 'Z004', 'Z008', 'Z011']",
-        "Durations":"[16.41, 7.45, 32.1, 17.16, 30.82]"
+        "E": 23.86,
+        "None": 80.08000000000001
     }
 ]

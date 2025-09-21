@@ -105,8 +105,8 @@ const PhysGenderDistribution = () => {
         <PieChart 
           data={data} 
           title="Customer Gender Distribution" 
-          width={1000}
-          height={600}
+          width={650}
+          height={400}
           showValues={true}
           showLegend={true}
           showCenter={true}

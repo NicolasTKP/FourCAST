@@ -1,86 +1,51 @@
 [
     {
-        "VisitID":"V00423",
-        "CustomerID":"C0048",
-        "Date":"2025-06-16 09:11:00",
-        "ZonesVisited":"['Z010', 'Z003', 'Z012', 'Z008']",
-        "Durations":"[9.6, 19.01, 35.73, 29.81]"
+        "None": 28.61,
+        "E": 35.73,
+        "C": 29.81
     },
     {
-        "VisitID":"V01308",
-        "CustomerID":"C0135",
-        "Date":"2025-06-16 15:26:00",
-        "ZonesVisited":"['Z009']",
-        "Durations":"[18.46]"
+        "E": 18.46
     },
     {
-        "VisitID":"V04193",
-        "CustomerID":"C0424",
-        "Date":"2025-06-16 20:37:00",
-        "ZonesVisited":"['Z015', 'Z014', 'Z013', 'Z004', 'Z001']",
-        "Durations":"[18.8, 35.3, 42.43, 11.89, 6.7]"
+        "C": 30.69,
+        "None": 35.3,
+        "E": 42.43,
+        "A": 6.7
     },
     {
-        "VisitID":"V04897",
-        "CustomerID":"C0497",
-        "Date":"2025-06-16 11:23:00",
-        "ZonesVisited":"['Z001']",
-        "Durations":"[44.77]"
+        "None": 44.77
     },
     {
-        "VisitID":"V06405",
-        "CustomerID":"C0649",
-        "Date":"2025-06-16 19:55:00",
-        "ZonesVisited":"['Z002', 'Z003', 'Z004', 'Z008', 'Z009']",
-        "Durations":"[29.62, 10.01, 13.94, 24.38, 31.64]"
+        "E": 43.56,
+        "A": 10.01,
+        "None": 24.38,
+        "B": 31.64
     },
     {
-        "VisitID":"V06761",
-        "CustomerID":"C0683",
-        "Date":"2025-06-16 17:44:00",
-        "ZonesVisited":"['Z010', 'Z014', 'Z003', 'Z012', 'Z009']",
-        "Durations":"[28.98, 19.33, 34.58, 25.17, 11.9]"
+        "C": 28.98,
+        "None": 19.33,
+        "A": 34.58,
+        "E": 25.17,
+        "D": 11.9
     },
     {
-        "VisitID":"V06780",
-        "CustomerID":"C0684",
-        "Date":"2025-06-16 19:18:00",
-        "ZonesVisited":"['Z015']",
-        "Durations":"[38.44]"
+        "C": 38.44
     },
     {
-        "VisitID":"V07091",
-        "CustomerID":"C0715",
-        "Date":"2025-06-16 13:48:00",
-        "ZonesVisited":"['Z007']",
-        "Durations":"[19.25]"
+        "D": 19.25
     },
     {
-        "VisitID":"V07720",
-        "CustomerID":"C0775",
-        "Date":"2025-06-16 20:54:00",
-        "ZonesVisited":"['Z009']",
-        "Durations":"[29.08]"
+        "A": 29.08
     },
     {
-        "VisitID":"V08091",
-        "CustomerID":"C0814",
-        "Date":"2025-06-16 10:02:00",
-        "ZonesVisited":"['Z014', 'Z007']",
-        "Durations":"[31.73, 20.53]"
+        "A": 31.73,
+        "None": 20.53
     },
     {
-        "VisitID":"V08403",
-        "CustomerID":"C0844",
-        "Date":"2025-06-16 15:10:00",
-        "ZonesVisited":"['Z007', 'Z014']",
-        "Durations":"[16.1, 32.1]"
+        "D": 48.2
     },
     {
-        "VisitID":"V09703",
-        "CustomerID":"C0976",
-        "Date":"2025-06-16 18:35:00",
-        "ZonesVisited":"['Z005']",
-        "Durations":"[44.67]"
+        "E": 44.67
     }
 ]

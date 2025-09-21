@@ -90,8 +90,8 @@ const PhysSales = () => {
         <LineChart 
           data={salesData} 
           title="Daily Physical Store Sales"
-          width={1300}
-          height={600}
+          width={800}
+          height={300}
           showArea={true}
           showPoints={true}
           showGrid={true}

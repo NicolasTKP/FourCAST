@@ -1,65 +1,37 @@
 [
     {
-        "VisitID":"V00193",
-        "CustomerID":"C0022",
-        "Date":"2024-06-13 18:40:00",
-        "ZonesVisited":"['Z005', 'Z002', 'Z015', 'Z008']",
-        "Durations":"[11.14, 22.8, 36.05, 9.58]"
+        "C": 47.19,
+        "None": 32.38
     },
     {
-        "VisitID":"V00225",
-        "CustomerID":"C0026",
-        "Date":"2024-06-13 20:05:00",
-        "ZonesVisited":"['Z002', 'Z009']",
-        "Durations":"[39.61, 42.87]"
+        "B": 39.61,
+        "None": 42.87
     },
     {
-        "VisitID":"V02746",
-        "CustomerID":"C0279",
-        "Date":"2024-06-13 19:01:00",
-        "ZonesVisited":"['Z005', 'Z014', 'Z006']",
-        "Durations":"[13.42, 8.11, 13.67]"
+        "D": 13.42,
+        "C": 21.78
     },
     {
-        "VisitID":"V03071",
-        "CustomerID":"C0315",
-        "Date":"2024-06-13 10:54:00",
-        "ZonesVisited":"['Z001', 'Z012', 'Z007']",
-        "Durations":"[15.53, 39.14, 29.15]"
+        "C": 15.53,
+        "B": 68.28999999999999
     },
     {
-        "VisitID":"V04321",
-        "CustomerID":"C0438",
-        "Date":"2024-06-13 15:25:00",
-        "ZonesVisited":"['Z015']",
-        "Durations":"[25.46]"
+        "A": 25.46
     },
     {
-        "VisitID":"V04985",
-        "CustomerID":"C0505",
-        "Date":"2024-06-13 17:40:00",
-        "ZonesVisited":"['Z015']",
-        "Durations":"[26.26]"
+        "None": 26.26
     },
     {
-        "VisitID":"V05758",
-        "CustomerID":"C0587",
-        "Date":"2024-06-13 17:51:00",
-        "ZonesVisited":"['Z002', 'Z014', 'Z015']",
-        "Durations":"[28.1, 18.6, 39.69]"
+        "A": 28.1,
+        "None": 18.6,
+        "D": 39.69
     },
     {
-        "VisitID":"V06804",
-        "CustomerID":"C0687",
-        "Date":"2024-06-13 21:46:00",
-        "ZonesVisited":"['Z015', 'Z006', 'Z009']",
-        "Durations":"[9.96, 7.62, 17.57]"
+        "D": 9.96,
+        "A": 25.19
     },
     {
-        "VisitID":"V08915",
-        "CustomerID":"C0891",
-        "Date":"2024-06-13 19:53:00",
-        "ZonesVisited":"['Z008', 'Z012', 'Z003']",
-        "Durations":"[17.76, 26.27, 2.19]"
+        "None": 44.03,
+        "C": 2.19
     }
 ]

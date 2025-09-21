@@ -74,7 +74,9 @@ const ZoneVisitingDuration = () => {
 
   Object.entries(data).map(([date, zones]) => {
     Object.entries(zones).map(([zone, duration]) => {
-      zoneDurations[zone] = (zoneDurations[zone] || []).concat(Math.round(duration*100)/100);
+      zoneDurations[zone] = (zoneDurations[zone] || []).concat(
+        Math.round(duration * 100) / 100
+      );
     });
   });
 
@@ -88,7 +90,12 @@ const ZoneVisitingDuration = () => {
   return (
     <div>
       {zoneData.length > 0 ? (
-        <BoxPlot data={zoneData} title="Zone Visiting Duration" />
+        <BoxPlot
+          data={zoneData}
+          title="Zone Visiting Duration"
+          width={1350}
+          height={400}
+        />
       ) : (
         <p>Loading zone data...</p>
       )}

@@ -18,9 +18,13 @@ const ZoneVisitingCount = () => {
   useEffect(() => {
     async function loadData() {
       try {
-        const indexResponse = await fetch("/s3/physicalstore/visit_zone/index.json");
+        const indexResponse = await fetch(
+          "/s3/physicalstore/visit_zone/index.json"
+        );
         if (!indexResponse.ok) {
-          throw new Error(`HTTP error! status: ${indexResponse.status} for index.json`);
+          throw new Error(
+            `HTTP error! status: ${indexResponse.status} for index.json`
+          );
         }
         const files: string[] = await indexResponse.json();
 
@@ -28,9 +32,13 @@ const ZoneVisitingCount = () => {
 
         for (const file of files) {
           try {
-            const response = await fetch(`/s3/physicalstore/visit_zone/${file}`);
+            const response = await fetch(
+              `/s3/physicalstore/visit_zone/${file}`
+            );
             if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status} for ${file}`);
+              throw new Error(
+                `HTTP error! status: ${response.status} for ${file}`
+              );
             }
             const visits: Record<string, any>[] = await response.json();
 
@@ -43,7 +51,10 @@ const ZoneVisitingCount = () => {
               }
             }
           } catch (fileError) {
-            console.error(`Error fetching or processing file ${file}:`, fileError);
+            console.error(
+              `Error fetching or processing file ${file}:`,
+              fileError
+            );
           }
         }
 
@@ -65,24 +76,30 @@ const ZoneVisitingCount = () => {
     });
   });
 
-  const chartData: ChartDataItem[] = Object.entries(zoneCounts).map(([zone, count]) => ({
-    label: zone,
-    value: count
-  }));
+  const chartData: ChartDataItem[] = Object.entries(zoneCounts).map(
+    ([zone, count]) => ({
+      label: zone,
+      value: count,
+    })
+  );
 
-  const zones = Object.keys(zoneCounts); 
+  const zones = Object.keys(zoneCounts);
   const counts = Object.values(zoneCounts);
 
   return (
     <div>
       {zones.length > 0 ? (
-        <BarChart data={chartData} title="Zone Visiting Count" />
+        <BarChart
+          data={chartData}
+          title="Zone Visiting Count"
+          width={500}
+          height={300}
+        />
       ) : (
         <p>Loading zone data...</p>
       )}
     </div>
   );
-
 };
 
 export default ZoneVisitingCount;

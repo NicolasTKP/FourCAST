@@ -130,8 +130,8 @@ const ProductInfluence = () => {
         <BoxPlot 
           data={productData} 
           title="Product Performance Metrics Distribution"
-          width={1300}
-          height={600}
+          width={1350}
+          height={400}
         />
       ) : (
         <p>Loading product data...</p>
