@@ -1,0 +1,3 @@
+curl -X POST "apikeyurl" \
+  -H "Content-Type: application/json" \
+  -d '{"sessionId":"demo-1", "prompt":"can you say, ni hao, just repeat it"}'
