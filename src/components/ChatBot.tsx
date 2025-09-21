@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Chatbot.css";
 
 interface Message {
@@ -18,23 +18,30 @@ const Chatbot = () => {
   const [sessionId, setSessionId] = useState<string>("demo-1"); // Initialize session ID
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
+  const DEFAULT_PROMPT =
+    "According all the data, what is the top 5 actions I can perform to improve my store performance. Reply me in numbered list. Starting with 'This is the five high value insights'";
+
   // Your API endpoint - replace with your actual API URL
   const API_URL = process.env.REACT_APP_AI_AGENT_API || "";
 
-  const sendMessage = async () => {
-    const message = userInput.trim();
+  const sendMessage = async (
+    customMessage?: string,
+    showUser: boolean = true
+  ) => {
+    const message = (customMessage ?? userInput).trim();
     if (!message || isLoading) return;
 
-    // Add user message to display
-    const newMessages: Message[] = [
-      ...messages,
-      { text: message, sender: "user" as const },
-    ];
-    setMessages(newMessages);
-    setIsLoading(true);
+    let newMessages: Message[] = [...messages];
+    if (showUser) {
+      newMessages = [
+        ...newMessages,
+        { text: message, sender: "user" as const },
+      ];
+      setMessages(newMessages);
+    }
 
+    setIsLoading(true);
     try {
-      // Add logging to debug the request
       const requestBody = {
         sessionId: sessionId,
         prompt: message,
@@ -42,14 +49,10 @@ const Chatbot = () => {
 
       console.log("Sending request:", requestBody);
 
-      // Call backend API with the exact format from your curl example
       const response = await fetch(API_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          // Note: If you need API key authentication in headers, add it here:
-          // 'Authorization': 'Bearer YOUR_API_KEY',
-          // 'x-api-key': 'YOUR_API_KEY'
         },
         body: JSON.stringify(requestBody),
       });
@@ -59,60 +62,35 @@ const Chatbot = () => {
       }
 
       const data = await response.json();
-      console.log("Received response:", data);
-
-      // Handle Lambda/API Gateway response format
       let parsedData = data;
 
-      // If the response has a body field (Lambda/API Gateway format), parse it
       if (data.body && typeof data.body === "string") {
         try {
           parsedData = JSON.parse(data.body);
-          console.log("Parsed response body:", parsedData);
         } catch (e) {
-          console.error("Failed to parse response body:", e);
           parsedData = data;
         }
       }
 
-      // Handle different possible response formats
       let botReply = "";
-      if (parsedData.reply) {
-        botReply = parsedData.reply;
-      } else if (parsedData.response) {
-        botReply = parsedData.response;
-      } else if (parsedData.message) {
-        botReply = parsedData.message;
-      } else if (typeof parsedData === "string") {
-        botReply = parsedData;
-      } else {
-        console.log("Received data structure:", data);
-        console.log("Parsed data structure:", parsedData);
-        botReply = "Received response but could not parse the message.";
-      }
+      if (parsedData.reply) botReply = parsedData.reply;
+      else if (parsedData.response) botReply = parsedData.response;
+      else if (parsedData.message) botReply = parsedData.message;
+      else if (typeof parsedData === "string") botReply = parsedData;
+      else botReply = "Received response but could not parse the message.";
 
-      // Log debug info if available
-      if (parsedData.debug) {
-        console.log("Debug info from Lambda:", parsedData.debug);
-      }
-
-      // Update session ID if returned by API
       const returnedSessionId = parsedData.sessionId || data.sessionId;
       if (returnedSessionId && returnedSessionId !== sessionId) {
         setSessionId(returnedSessionId);
       }
 
-      // Add bot message to display
+      // Always show the bot reply
       setMessages([...newMessages, { text: botReply, sender: "bot" as const }]);
 
-      // Update history
       setHistory([...history, { user: message, assistant: botReply }]);
-
-      // Reset input
       setUserInput("");
     } catch (error) {
       console.error("Error sending message:", error);
-      // Add error message
       setMessages([
         ...newMessages,
         {
@@ -142,6 +120,11 @@ const Chatbot = () => {
   const changeSessionId = (newSessionId: string) => {
     setSessionId(newSessionId);
   };
+
+  useEffect(() => {
+    sendMessage(DEFAULT_PROMPT, false); // 👈 false = don’t render user msg
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="chatbot-container">

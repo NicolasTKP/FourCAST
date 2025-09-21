@@ -16,6 +16,7 @@ import Chatbot from "./components/ChatBot";
 import Dropdown from "./components/Dropdown";
 import PhysPromotionEffectiveness from "./components/PhysPromotionEffectiveness";
 import CompanyList from "./components/CompanyList";
+import DisplayPrediction from "./components/DisplayPrediction";
 
 const App = () => {
   const [selectedTab, setSelectedTab] = useState("Tracking");
@@ -168,7 +169,7 @@ const App = () => {
             </>
           )}
 
-          {selectedTab === "Forecast" && <PhysPromotionEffectiveness />}
+          {selectedTab === "Forecast" && <DisplayPrediction />}
 
           {selectedTab === "AI Agent" && <Chatbot />}
         </div>

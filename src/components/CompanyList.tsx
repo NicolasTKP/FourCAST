@@ -77,14 +77,14 @@ const CompanyList = ({setIsClick}:props) => {
 
   return (
     <div className="company-list-container">
-      <h1 className="main-title">Company Directory</h1>
+      <h1 className="main-title">Retail Store Directory</h1>
       
       <div className="table-wrapper">
         <div className="table-container">
           <table className="company-table">
             <thead className="table-header">
               <tr>
-                <th className="table-header-cell">Company</th>
+                <th className="table-header-cell">Retail Store</th>
                 <th className="table-header-cell">Industry</th>
                 <th className="table-header-cell">Location</th>
                 <th className="table-header-cell">Employees</th>
